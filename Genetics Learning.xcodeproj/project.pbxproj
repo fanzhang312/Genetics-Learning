@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B996E7221529380000089A68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996E7211529380000089A68 /* UIKit.framework */; };
+		B996E7241529380000089A68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996E7231529380000089A68 /* Foundation.framework */; };
+		B996E7261529380000089A68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996E7251529380000089A68 /* CoreGraphics.framework */; };
+		B996E72C1529380000089A68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B996E72A1529380000089A68 /* InfoPlist.strings */; };
+		B996E72E1529380000089A68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B996E72D1529380000089A68 /* main.m */; };
+		B996E7321529380000089A68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B996E7311529380000089A68 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B996E71D1529380000089A68 /* Genetics Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Genetics Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B996E7211529380000089A68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B996E7231529380000089A68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B996E7251529380000089A68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B996E7291529380000089A68 /* Genetics Learning-Info.plist */ = {isa = PBXFileReference; path = "Genetics Learning-Info.plist"; sourceTree = "<group>"; };
+		B996E72B1529380000089A68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B996E72D1529380000089A68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B996E72F1529380000089A68 /* Genetics Learning-Prefix.pch */ = {isa = PBXFileReference; path = "Genetics Learning-Prefix.pch"; sourceTree = "<group>"; };
+		B996E7301529380000089A68 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B996E7311529380000089A68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B996E71A1529380000089A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B996E7221529380000089A68 /* UIKit.framework in Frameworks */,
+				B996E7241529380000089A68 /* Foundation.framework in Frameworks */,
+				B996E7261529380000089A68 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B996E7121529380000089A68 = {
+			isa = PBXGroup;
+			children = (
+				B996E7271529380000089A68 /* Genetics Learning */,
+				B996E7201529380000089A68 /* Frameworks */,
+				B996E71E1529380000089A68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B996E71E1529380000089A68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B996E71D1529380000089A68 /* Genetics Learning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B996E7201529380000089A68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B996E7211529380000089A68 /* UIKit.framework */,
+				B996E7231529380000089A68 /* Foundation.framework */,
+				B996E7251529380000089A68 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B996E7271529380000089A68 /* Genetics Learning */ = {
+			isa = PBXGroup;
+			children = (
+				B996E7301529380000089A68 /* AppDelegate.h */,
+				B996E7311529380000089A68 /* AppDelegate.m */,
+				B996E7281529380000089A68 /* Supporting Files */,
+			);
+			path = "Genetics Learning";
+			sourceTree = "<group>";
+		};
+		B996E7281529380000089A68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B996E7291529380000089A68 /* Genetics Learning-Info.plist */,
+				B996E72A1529380000089A68 /* InfoPlist.strings */,
+				B996E72D1529380000089A68 /* main.m */,
+				B996E72F1529380000089A68 /* Genetics Learning-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B996E71C1529380000089A68 /* Genetics Learning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B996E7351529380000089A68 /* Build configuration list for PBXNativeTarget "Genetics Learning" */;
+			buildPhases = (
+				B996E7191529380000089A68 /* Sources */,
+				B996E71A1529380000089A68 /* Frameworks */,
+				B996E71B1529380000089A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Genetics Learning";
+			productName = "Genetics Learning";
+			productReference = B996E71D1529380000089A68 /* Genetics Learning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B996E7141529380000089A68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B996E7171529380000089A68 /* Build configuration list for PBXProject "Genetics Learning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B996E7121529380000089A68;
+			productRefGroup = B996E71E1529380000089A68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B996E71C1529380000089A68 /* Genetics Learning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B996E71B1529380000089A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B996E72C1529380000089A68 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B996E7191529380000089A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B996E72E1529380000089A68 /* main.m in Sources */,
+				B996E7321529380000089A68 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B996E72A1529380000089A68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B996E72B1529380000089A68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B996E7331529380000089A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B996E7341529380000089A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B996E7361529380000089A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Genetics Learning/Genetics Learning-Prefix.pch";
+				INFOPLIST_FILE = "Genetics Learning/Genetics Learning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B996E7371529380000089A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Genetics Learning/Genetics Learning-Prefix.pch";
+				INFOPLIST_FILE = "Genetics Learning/Genetics Learning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B996E7171529380000089A68 /* Build configuration list for PBXProject "Genetics Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B996E7331529380000089A68 /* Debug */,
+				B996E7341529380000089A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B996E7351529380000089A68 /* Build configuration list for PBXNativeTarget "Genetics Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B996E7361529380000089A68 /* Debug */,
+				B996E7371529380000089A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B996E7141529380000089A68 /* Project object */;
+}
