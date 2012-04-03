@@ -7,25 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15830F2B152A01CC00977154 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15830F29152A01CC00977154 /* DetailViewController.m */; };
+		15830F2C152A01CC00977154 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15830F2A152A01CC00977154 /* DetailViewController.xib */; };
+		15830F2E152A098900977154 /* DNA.png in Resources */ = {isa = PBXBuildFile; fileRef = 15830F2D152A098900977154 /* DNA.png */; };
+		15830F32152A103A00977154 /* Transparent_Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 15830F31152A103A00977154 /* Transparent_Bar.png */; };
 		B996E7221529380000089A68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996E7211529380000089A68 /* UIKit.framework */; };
 		B996E7241529380000089A68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996E7231529380000089A68 /* Foundation.framework */; };
 		B996E7261529380000089A68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996E7251529380000089A68 /* CoreGraphics.framework */; };
 		B996E72C1529380000089A68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B996E72A1529380000089A68 /* InfoPlist.strings */; };
 		B996E72E1529380000089A68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B996E72D1529380000089A68 /* main.m */; };
 		B996E7321529380000089A68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B996E7311529380000089A68 /* AppDelegate.m */; };
+		B996E73B1529387600089A68 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B996E7391529387600089A68 /* MasterViewController.m */; };
+		B996E73C1529387600089A68 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B996E73A1529387600089A68 /* MasterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15830F28152A01CC00977154 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		15830F29152A01CC00977154 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		15830F2A152A01CC00977154 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		15830F2D152A098900977154 /* DNA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DNA.png; sourceTree = "<group>"; };
+		15830F31152A103A00977154 /* Transparent_Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Transparent_Bar.png; sourceTree = "<group>"; };
 		B996E71D1529380000089A68 /* Genetics Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Genetics Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B996E7211529380000089A68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B996E7231529380000089A68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B996E7251529380000089A68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B996E7291529380000089A68 /* Genetics Learning-Info.plist */ = {isa = PBXFileReference; path = "Genetics Learning-Info.plist"; sourceTree = "<group>"; };
+		B996E7291529380000089A68 /* Genetics Learning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Genetics Learning-Info.plist"; sourceTree = "<group>"; };
 		B996E72B1529380000089A68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B996E72D1529380000089A68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B996E72F1529380000089A68 /* Genetics Learning-Prefix.pch */ = {isa = PBXFileReference; path = "Genetics Learning-Prefix.pch"; sourceTree = "<group>"; };
-		B996E7301529380000089A68 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B996E72F1529380000089A68 /* Genetics Learning-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Genetics Learning-Prefix.pch"; sourceTree = "<group>"; };
+		B996E7301529380000089A68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B996E7311529380000089A68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B996E7381529387600089A68 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		B996E7391529387600089A68 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		B996E73A1529387600089A68 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +86,16 @@
 		B996E7271529380000089A68 /* Genetics Learning */ = {
 			isa = PBXGroup;
 			children = (
+				15830F31152A103A00977154 /* Transparent_Bar.png */,
+				15830F2D152A098900977154 /* DNA.png */,
+				15830F28152A01CC00977154 /* DetailViewController.h */,
+				15830F29152A01CC00977154 /* DetailViewController.m */,
+				15830F2A152A01CC00977154 /* DetailViewController.xib */,
 				B996E7301529380000089A68 /* AppDelegate.h */,
 				B996E7311529380000089A68 /* AppDelegate.m */,
+				B996E7381529387600089A68 /* MasterViewController.h */,
+				B996E7391529387600089A68 /* MasterViewController.m */,
+				B996E73A1529387600089A68 /* MasterViewController.xib */,
 				B996E7281529380000089A68 /* Supporting Files */,
 			);
 			path = "Genetics Learning";
@@ -141,6 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B996E72C1529380000089A68 /* InfoPlist.strings in Resources */,
+				B996E73C1529387600089A68 /* MasterViewController.xib in Resources */,
+				15830F2C152A01CC00977154 /* DetailViewController.xib in Resources */,
+				15830F2E152A098900977154 /* DNA.png in Resources */,
+				15830F32152A103A00977154 /* Transparent_Bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +179,8 @@
 			files = (
 				B996E72E1529380000089A68 /* main.m in Sources */,
 				B996E7321529380000089A68 /* AppDelegate.m in Sources */,
+				B996E73B1529387600089A68 /* MasterViewController.m in Sources */,
+				15830F2B152A01CC00977154 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +286,7 @@
 				B996E7371529380000089A68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
