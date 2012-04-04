@@ -9,6 +9,24 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController <UIScrollViewDelegate>
+{
+    UIScrollView *scrollView;
+    UIPageControl *pageControl;
+    NSMutableArray *viewControllers;
+    
+    BOOL pageControlUsed;
+}
+
+@property (retain, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (retain, nonatomic) IBOutlet UIPageControl *pageControl;
+
+@property (nonatomic, retain) NSMutableArray *viewControllers;
+
+- (IBAction)changePage:(id)sender;
+
+- (UIView *)view;
+- (void)loadScrollViewWithPage:(int)page;
+- (void)scrollViewDidScroll:(UIScrollView *)sender;
 
 @end
