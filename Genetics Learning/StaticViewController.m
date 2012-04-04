@@ -10,6 +10,19 @@
 
 @implementation StaticViewController
 
+@synthesize pageNumberLabel;
+@synthesize numberTitle;
+@synthesize numberImage;
+@synthesize numberContent;
+
+- (id)initWithPageNumber:(int)page
+{
+    if (self = [super initWithNibName:@"StaticViewController" bundle:nil]) {
+        pageNumber = page;
+    }
+    return self;
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -33,10 +46,15 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    pageNumberLabel.text = [NSString stringWithFormat:@"Page %d", pageNumber + 1];
 }
 
 - (void)viewDidUnload
 {
+    [self setNumberTitle:nil];
+    [self setNumberImage:nil];
+    [self setNumberContent:nil];
+    [self setPageNumberLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

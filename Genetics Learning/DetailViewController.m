@@ -69,7 +69,7 @@ static NSUInteger kNumberOfPages = 6;
         StaticViewController *controller = [viewControllers objectAtIndex:page];
         if ((NSNull *)controller == [NSNull null])
         {
-            controller = [[StaticViewController alloc] initWithNibName:@"StaticViewController" bundle:nil];
+            controller = [[StaticViewController alloc] initWithPageNumber:page];
             [viewControllers replaceObjectAtIndex:page withObject:controller];
             
         }

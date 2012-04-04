@@ -11,6 +11,7 @@
 		15830F2C152A01CC00977154 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15830F2A152A01CC00977154 /* DetailViewController.xib */; };
 		15830F2E152A098900977154 /* DNA.png in Resources */ = {isa = PBXBuildFile; fileRef = 15830F2D152A098900977154 /* DNA.png */; };
 		15830F32152A103A00977154 /* Transparent_Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 15830F31152A103A00977154 /* Transparent_Bar.png */; };
+		15D17122152C9F6E00203054 /* genetics_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D17121152C9F6E00203054 /* genetics_72.png */; };
 		B996E7221529380000089A68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996E7211529380000089A68 /* UIKit.framework */; };
 		B996E7241529380000089A68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996E7231529380000089A68 /* Foundation.framework */; };
 		B996E7261529380000089A68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996E7251529380000089A68 /* CoreGraphics.framework */; };
@@ -29,6 +30,7 @@
 		15830F2A152A01CC00977154 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		15830F2D152A098900977154 /* DNA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DNA.png; sourceTree = "<group>"; };
 		15830F31152A103A00977154 /* Transparent_Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Transparent_Bar.png; sourceTree = "<group>"; };
+		15D17121152C9F6E00203054 /* genetics_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = genetics_72.png; sourceTree = "<group>"; };
 		B996E71D1529380000089A68 /* Genetics Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Genetics Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B996E7211529380000089A68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B996E7231529380000089A68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,6 +66,7 @@
 		B996E7121529380000089A68 = {
 			isa = PBXGroup;
 			children = (
+				15D17121152C9F6E00203054 /* genetics_72.png */,
 				B996E7271529380000089A68 /* Genetics Learning */,
 				B996E7201529380000089A68 /* Frameworks */,
 				B996E71E1529380000089A68 /* Products */,
@@ -176,6 +179,7 @@
 				15830F2E152A098900977154 /* DNA.png in Resources */,
 				15830F32152A103A00977154 /* Transparent_Bar.png in Resources */,
 				BE9F96BA152C013B0098A24F /* StaticViewController.xib in Resources */,
+				15D17122152C9F6E00203054 /* genetics_72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
