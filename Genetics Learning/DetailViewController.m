@@ -8,8 +8,13 @@
 
 #import "DetailViewController.h"
 #import "StaticViewController.h"
+//#import "ContentController.h"
 
 static NSUInteger kNumberOfPages = 6;
+static NSString *tittleKey = @"tittleKey";
+static NSString *imageKey = @"imageKey";
+static NSString *contentKey = @"contentKey";
+
 
 @implementation DetailViewController
 
@@ -17,12 +22,17 @@ static NSUInteger kNumberOfPages = 6;
 @synthesize pageControl;
 @synthesize viewControllers;
 
+@synthesize contentList;
+
+
+
 - (void)viewDidLoad
 {
 	// load our data from a plist file inside our app bundle
-   /* NSString *path = [[NSBundle mainBundle] pathForResource:@"content_iPhone" ofType:@"plist"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"chapter5" ofType:@"plist"];
     self.contentList = [NSArray arrayWithContentsOfFile:path];
-    */
+    NSLog(@"%@",path);
+    NSLog(@"%@",self.contentList);
     // view controllers are created lazily
     // in the meantime, load the array with placeholders which will be replaced on demand
     
@@ -87,7 +97,15 @@ static NSUInteger kNumberOfPages = 6;
             frame.origin.x = frame.size.width * page;
             frame.origin.y = 0;
             controller.view.frame = frame;
-            [scrollView addSubview:controller.view];        
+            [scrollView addSubview:controller.view];   
+            
+            
+            NSDictionary *numberItem = [self.contentList objectAtIndex:page];
+            controller.numberImage.image = [UIImage imageNamed:[numberItem valueForKey:imageKey]];
+            controller.numberTitle.text = [numberItem valueForKey:tittleKey];
+            controller.numberContent.text = [numberItem valueForKey:contentKey];
+            
+           
         }
     
 }

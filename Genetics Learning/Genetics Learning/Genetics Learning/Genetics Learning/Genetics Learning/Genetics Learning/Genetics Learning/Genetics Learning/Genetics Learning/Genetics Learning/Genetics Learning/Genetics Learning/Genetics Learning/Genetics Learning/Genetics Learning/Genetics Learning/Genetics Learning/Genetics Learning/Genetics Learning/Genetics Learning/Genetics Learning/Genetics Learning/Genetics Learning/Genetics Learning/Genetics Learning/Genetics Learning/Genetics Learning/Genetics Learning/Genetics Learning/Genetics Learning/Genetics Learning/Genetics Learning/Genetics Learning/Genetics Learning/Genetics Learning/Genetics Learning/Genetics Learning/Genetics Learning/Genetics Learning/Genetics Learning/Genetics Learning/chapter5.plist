@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>item0</key>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: semiconservative replication</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>DNA replication is a fundamental property of living organisms.Prior to cell division( fission in prokaryotes; mitosis and meiosis in eukaryotes), DNA must be replicated so that, after cell division, the resulting daughter cells each end uo with the
+same amount of genetic material as the original cell. In other words, DNA replication ensures the constancy and equality of distribution of genetic material in reproduction.
+
+So far, we have learned the following: The DNA molecule is a double helix. Each of the two interwined strans is made up of many basic units called nucleotides. A nucleotide is coposed of 5-carbon sugar( deoxyribose), a phosphate group attached to the deoxyribose, and a nitrogenous base attached to the 1&apos;C of the sugar. At the opposite end of the phosphate group is an OH group attached to the 3&apos;C of the sugar. Therefore, each strand of DNA has two ends: the 5&apos;P end and the 3&apos;OH end. Here the two strands are dark orange and light orange in color, respectively.</string>
+	</dict>
+	<key>item1</key>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: semiconservative replication</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>For simplicity, two straight lines are used to represent a double helix. Note that the two strands are antiparallel to each other.</string>
+	</dict>
+	<key>item2</key>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: semiconservation replication</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>For DNA replication to occur, the double stranded DNA(dsDNA) must be separated into two single strands (ssDNA), a process called DNA denaturation.</string>
+	</dict>
+	<key>item3</key>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: semiconservation replication</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>Each original single stranded DNA serves as a template for synthesizing a new complmentary strand( dark blue and light blue).
+
+This is called semiconservative method of DNA replication.
+
+DNA replication is a complicated process.
+
+Some key steps will be shown in the following pages.</string>
+	</dict>
+	<key>item4</key>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>In the first step of DNA replication, the enzyme helicase breaks the hydrogen bonds
+between the complementary bases of the double helix, turning double-stranded DNA
+into single-stranded DNA.
+
+* Drag the helicase to the bottom of the double helix between the 2 strands.</string>
+	</dict>
+	<key>item5</key>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis
+DNA replication: leading &amp; lagging strand synthesis
+</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>The junction between the double stranded and the single stranded DNA is called replication fork.
+
+After the double helix starts to unwind, proteins called single strand binding proteins, or SSBs, attached to the single strands to prevent them from coming back together.
+
+* Drag one SSB to the 3&apos; end of one single strand, and drag the SSB to the 5&apos; end of the other single strand.</string>
+	</dict>
+	<key>item6</key>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>As you have seen, many SSBs are bound to the newly separated DNA strands to prevent them from forming double helix again.
+
+Next, the RNA promise attaches to the unwound DNA strand. It is an enzyme that generates a short stretch of RNA primer that is complementary to DNA to initiate DNA synthesis.
+
+* Drag one RNA primes molecule to the 3&apos; end of one DNA strand so that it can travel in the 3&apos; to 5&apos; direction and ass nucleotides in the 5&apos; to 3&apos; direction. Silimarly, drag another RNA promise to the middle of the other single DNA strand.</string>
+	</dict>
+	<key>item7</key>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>As the RNA primes travels, a short piece of RNA is synthesized.
+
+This short piece of RNA is call RNA primer, serving as a synthesis starting point for DNA synthesis.
+
+After the RNA primers are generated, the RNA primes leaves the DNA strand, and the enzyme DNA polymerase attaches to the RNA primers, to synthesize a new complementary DNA strand in the 5&apos; to 3&apos; direction. </string>
+	</dict>
+	<key>item8</key>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>As the RNA primes travels, a short piece of RNA is synthesized.
+
+This short piece of RNA is call RNA primer, serving as a synthesis starting point for DNA synthesis.
+
+After the RNA primers are generated, the RNA primes leaves the DNA strand, and the enzyme DNA polymerase attaches to the RNA primers, to synthesize a new complementary DNA strand in the 5&apos; to 3&apos; direction. 
+
+* Drag each DNA polymerase molecule to a primer.</string>
+	</dict>
+	<key>item9</key>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>Note that, on the left side, the DNA polymerase moves on the template strand( deep red) is the 3&apos; to 5&apos; direction, and, at the same time, it synthesizes a new DNA strand in the 5&apos; to 3&apos; direction. The continuously synthesized new strand is called the leading strand ( dark blue).
+
+On the other strand( right), however, the DNA polymerase travels away from the relocation fork so that more single stranded DNA becomes available for synthesizing a new DNA fragment. This strand is known as the lagging strand( light blue).
+
+In order for more DNA to be synthesized on the lagging strand template, another RNA primer has to be generated by RNA primes.
+</string>
+	</dict>
+	<key>item10</key>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis
+</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>Note that, on the left side, the DNA polymerase moves on the template strand( deep red) is the 3&apos; to 5&apos; direction, and, at the same time, it synthesizes a new DNA strand in the 5&apos; to 3&apos; direction. The continuously synthesized new strand is called the leading strand ( dark blue).
+
+On the other strand( right), however, the DNA polymerase travels away from the relocation fork so that more single stranded DNA becomes available for synthesizing a new DNA fragment. This strand is known as the lagging strand( light blue).
+
+* Drag RNA primes to the lagging strand template just below the helicase. 
+</string>
+	</dict>
+</dict>
+</plist>
