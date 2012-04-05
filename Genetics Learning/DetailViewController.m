@@ -31,8 +31,19 @@ static NSString *contentKey = @"contentKey";
 	// load our data from a plist file inside our app bundle
     NSString *path = [[NSBundle mainBundle] pathForResource:@"chapter5" ofType:@"plist"];
     self.contentList = [NSArray arrayWithContentsOfFile:path];
-    NSLog(@"%@",path);
-    NSLog(@"%@",self.contentList);
+//    self.contentList = [NSDictionary dictionaryWithContentsOfFile:path]
+    
+    
+    
+    NSDictionary *myDic = [[NSDictionary alloc] initWithContentsOfFile:path];
+    NSLog(@"The count: %i",[myDic count]);
+    
+    NSArray *thisArray = [[NSArray alloc] initWithContentsOfFile:path];
+    NSLog(@"The array count: %i", [thisArray count]);
+    
+    
+    
+    
     // view controllers are created lazily
     // in the meantime, load the array with placeholders which will be replaced on demand
     
