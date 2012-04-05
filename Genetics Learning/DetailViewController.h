@@ -25,7 +25,6 @@
 
 - (IBAction)changePage:(id)sender;
 
-- (UIView *)view;
 - (void)loadScrollViewWithPage:(int)page;
 - (void)scrollViewDidScroll:(UIScrollView *)sender;
 

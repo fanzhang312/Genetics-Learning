@@ -54,7 +54,7 @@
     [list addObject:@"6. Polymerase chain Reaction"];
     [list addObject:@"7. PCR in virtual PCR laboratory"];
     
-    self.detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
+    //self.detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
     
     // set the back button text for the navigation bar
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] 
@@ -187,8 +187,8 @@
      */
     
     if (indexPath.row == 4||indexPath.row == 5) {
-        
-        [self.navigationController pushViewController:self.detailViewController animated:YES];
+        DetailViewController *viewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
+        [self.navigationController pushViewController:viewController animated:YES];
     }else {
         NSString *msg = [[NSString alloc] initWithFormat:@"The Section is under development. Please choose 5 or 6."];
         UIAlertView *alert = [[UIAlertView alloc]
@@ -205,7 +205,8 @@
 {
     //self.detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
     if (indexPath.row == 4||indexPath.row == 5) {
-    [self.navigationController pushViewController:self.detailViewController animated:YES];
+        DetailViewController *viewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
+        [self.navigationController pushViewController:viewController animated:YES];
     }else{
         NSString *msg = [[NSString alloc] initWithFormat:@"The Section is under development. Please choose 5 or 6."];
         UIAlertView *alert = [[UIAlertView alloc]

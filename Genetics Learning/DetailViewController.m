@@ -17,7 +17,7 @@ static NSUInteger kNumberOfPages = 6;
 @synthesize pageControl;
 @synthesize viewControllers;
 
-- (void)awakeFromNib
+- (void)viewDidLoad
 {
 	// load our data from a plist file inside our app bundle
    /* NSString *path = [[NSBundle mainBundle] pathForResource:@"content_iPhone" ofType:@"plist"];
@@ -25,6 +25,9 @@ static NSUInteger kNumberOfPages = 6;
     */
     // view controllers are created lazily
     // in the meantime, load the array with placeholders which will be replaced on demand
+    
+    
+    //NSLog(@"called");
     NSMutableArray *controllers = [[NSMutableArray alloc] init];
     for (unsigned i = 0; i < kNumberOfPages; i++)
     {
@@ -39,7 +42,9 @@ static NSUInteger kNumberOfPages = 6;
     scrollView.showsHorizontalScrollIndicator = NO;
     scrollView.showsVerticalScrollIndicator = NO;
     scrollView.scrollsToTop = NO;
+    scrollView.directionalLockEnabled = YES;
     scrollView.delegate = self;
+    //scrollView.userInteractionEnabled = YES;
     
     pageControl.numberOfPages = kNumberOfPages;
     pageControl.currentPage = 0;
@@ -52,10 +57,10 @@ static NSUInteger kNumberOfPages = 6;
     [self loadScrollViewWithPage:1];
 }
 
-- (UIView *)view
-{
-    return self.scrollView;
-}
+//- (UIView *)view
+//{
+//    return self.scrollView;
+//}
 
 - (void)loadScrollViewWithPage:(int)page
 {
@@ -71,6 +76,7 @@ static NSUInteger kNumberOfPages = 6;
         {
             controller = [[StaticViewController alloc] initWithPageNumber:page];
             [viewControllers replaceObjectAtIndex:page withObject:controller];
+            controller.view.userInteractionEnabled = YES;
             
         }
         
@@ -141,7 +147,9 @@ static NSUInteger kNumberOfPages = 6;
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        
     }
+    NSLog(@"inited");
     return self;
 }
 
@@ -155,11 +163,13 @@ static NSUInteger kNumberOfPages = 6;
 
 #pragma mark - View lifecycle
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-}
+//- (void)viewDidLoad
+//{
+//    [super viewDidLoad];
+//    NSLog(@"called view did load");
+//    
+//    // Do any additional setup after loading the view from its nib.
+//}
 
 - (void)viewDidUnload
 {

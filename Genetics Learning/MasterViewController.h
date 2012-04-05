@@ -13,6 +13,7 @@
 @interface MasterViewController : UITableViewController
 {
     NSMutableArray * list; 
+    DetailViewController *_detailViewController;
 }
 
 @property (strong, nonatomic) NSMutableArray *list;
