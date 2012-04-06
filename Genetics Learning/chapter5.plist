@@ -2,42 +2,38 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	
 	<dict>
 		<key>tittleKey</key>
 		<string>DNA replication: semiconservative replication</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>01.png</string>
 		<key>contentKey</key>
 		<string>DNA replication is a fundamental property of living organisms.Prior to cell division( fission in prokaryotes; mitosis and meiosis in eukaryotes), DNA must be replicated so that, after cell division, the resulting daughter cells each end uo with the
 same amount of genetic material as the original cell. In other words, DNA replication ensures the constancy and equality of distribution of genetic material in reproduction.
 
 So far, we have learned the following: The DNA molecule is a double helix. Each of the two interwined strans is made up of many basic units called nucleotides. A nucleotide is coposed of 5-carbon sugar( deoxyribose), a phosphate group attached to the deoxyribose, and a nitrogenous base attached to the 1&apos;C of the sugar. At the opposite end of the phosphate group is an OH group attached to the 3&apos;C of the sugar. Therefore, each strand of DNA has two ends: the 5&apos;P end and the 3&apos;OH end. Here the two strands are dark orange and light orange in color, respectively.</string>
 	</dict>
-	
 	<dict>
 		<key>tittleKey</key>
 		<string>DNA replication: semiconservative replication</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>02.png</string>
 		<key>contentKey</key>
 		<string>For simplicity, two straight lines are used to represent a double helix. Note that the two strands are antiparallel to each other.</string>
 	</dict>
-	
 	<dict>
 		<key>tittleKey</key>
 		<string>DNA replication: semiconservation replication</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>03.png</string>
 		<key>contentKey</key>
 		<string>For DNA replication to occur, the double stranded DNA(dsDNA) must be separated into two single strands (ssDNA), a process called DNA denaturation.</string>
 	</dict>
-	
 	<dict>
 		<key>tittleKey</key>
 		<string>DNA replication: semiconservation replication</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>04.png</string>
 		<key>contentKey</key>
 		<string>Each original single stranded DNA serves as a template for synthesizing a new complmentary strand( dark blue and light blue).
 
@@ -47,12 +43,11 @@ DNA replication is a complicated process.
 
 Some key steps will be shown in the following pages.</string>
 	</dict>
-	
 	<dict>
 		<key>tittleKey</key>
 		<string>DNA replication: leading &amp; lagging strand synthesis</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>05.png</string>
 		<key>contentKey</key>
 		<string>In the first step of DNA replication, the enzyme helicase breaks the hydrogen bonds
 between the complementary bases of the double helix, turning double-stranded DNA
@@ -60,14 +55,13 @@ into single-stranded DNA.
 
 * Drag the helicase to the bottom of the double helix between the 2 strands.</string>
 	</dict>
-	
 	<dict>
 		<key>tittleKey</key>
 		<string>DNA replication: leading &amp; lagging strand synthesis
 DNA replication: leading &amp; lagging strand synthesis
 </string>
 		<key>imageKey</key>
-		<string></string>
+		<string>06.png</string>
 		<key>contentKey</key>
 		<string>The junction between the double stranded and the single stranded DNA is called replication fork.
 
@@ -75,12 +69,11 @@ After the double helix starts to unwind, proteins called single strand binding p
 
 * Drag one SSB to the 3&apos; end of one single strand, and drag the SSB to the 5&apos; end of the other single strand.</string>
 	</dict>
-	
 	<dict>
 		<key>tittleKey</key>
 		<string>DNA replication: leading &amp; lagging strand synthesis</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>07.png</string>
 		<key>contentKey</key>
 		<string>As you have seen, many SSBs are bound to the newly separated DNA strands to prevent them from forming double helix again.
 
@@ -88,12 +81,11 @@ Next, the RNA promise attaches to the unwound DNA strand. It is an enzyme that g
 
 * Drag one RNA primes molecule to the 3&apos; end of one DNA strand so that it can travel in the 3&apos; to 5&apos; direction and ass nucleotides in the 5&apos; to 3&apos; direction. Silimarly, drag another RNA promise to the middle of the other single DNA strand.</string>
 	</dict>
-	
 	<dict>
 		<key>tittleKey</key>
 		<string>DNA replication: leading &amp; lagging strand synthesis</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>08.png</string>
 		<key>contentKey</key>
 		<string>As the RNA primes travels, a short piece of RNA is synthesized.
 
@@ -101,12 +93,11 @@ This short piece of RNA is call RNA primer, serving as a synthesis starting poin
 
 After the RNA primers are generated, the RNA primes leaves the DNA strand, and the enzyme DNA polymerase attaches to the RNA primers, to synthesize a new complementary DNA strand in the 5&apos; to 3&apos; direction. </string>
 	</dict>
-	
 	<dict>
 		<key>tittleKey</key>
 		<string>DNA replication: leading &amp; lagging strand synthesis</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>09.png</string>
 		<key>contentKey</key>
 		<string>As the RNA primes travels, a short piece of RNA is synthesized.
 
@@ -116,12 +107,11 @@ After the RNA primers are generated, the RNA primes leaves the DNA strand, and t
 
 * Drag each DNA polymerase molecule to a primer.</string>
 	</dict>
-	
 	<dict>
 		<key>tittleKey</key>
 		<string>DNA replication: leading &amp; lagging strand synthesis</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>10.png</string>
 		<key>contentKey</key>
 		<string>Note that, on the left side, the DNA polymerase moves on the template strand( deep red) is the 3&apos; to 5&apos; direction, and, at the same time, it synthesizes a new DNA strand in the 5&apos; to 3&apos; direction. The continuously synthesized new strand is called the leading strand ( dark blue).
 
@@ -130,13 +120,12 @@ On the other strand( right), however, the DNA polymerase travels away from the r
 In order for more DNA to be synthesized on the lagging strand template, another RNA primer has to be generated by RNA primes.
 </string>
 	</dict>
-	
 	<dict>
 		<key>tittleKey</key>
 		<string>DNA replication: leading &amp; lagging strand synthesis
 </string>
 		<key>imageKey</key>
-		<string></string>
+		<string>11.png</string>
 		<key>contentKey</key>
 		<string>Note that, on the left side, the DNA polymerase moves on the template strand( deep red) is the 3&apos; to 5&apos; direction, and, at the same time, it synthesizes a new DNA strand in the 5&apos; to 3&apos; direction. The continuously synthesized new strand is called the leading strand ( dark blue).
 
@@ -144,6 +133,184 @@ On the other strand( right), however, the DNA polymerase travels away from the r
 
 * Drag RNA primes to the lagging strand template just below the helicase. 
 </string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string>12.png</string>
+		<key>contentKey</key>
+		<string>Note that another short RNA primer will be synthesized by the new RNA primes.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>The RNA primer has been synthesized by the new RNA primes.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>Note that the DNA polymerase has bound to the newly formed RNA primer, preparing for making a new Okazaki fragment of the lagging strand.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>The individual stretches of lagging strand DNA are called Okazaki fragments.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>The individual stretches of lagging strand DNA are called Okazaki fragments.
+
+Note that the leading strand is continuously being synthesized.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>The individual stretches of lagging strand DNA are called Okazaki fragments.
+
+While DNA replication continues on the leading strand, RNA primase binds to the newly separated lagging strand for another run of Okazaki fragment synthesis.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>The individual stretches of lagging strand DNA are called Okazaki fragments.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>The individual stretches of lagging strand DNA are called Okazaki fragments.
+
+The enzymes RNase H and 5&apos; exonuclease are going to remove the RNA primer.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>The individual stretches of lagging strand DNA are called Okazaki fragments.
+
+The enzymes RNase H and 5&apos; exonuclease are going to remove the RNA primer.
+
+* Drag RNase H to the primer.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>The individual stretches of lagging strand DNA are called Okazaki fragments.
+
+The enzymes RNase H and 5&apos; exonuclease are going to remove the RNA primer.
+
+* Drag RNase H to the primer.
+
+* Drag the exonulease to the RNA primer.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>After the RNA primer is removed, a special type of DNA polymerase( repairing enzyme) replaces the RNA primer with DNA.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>After the RNA primer is removed, a special type of DNA polymerase( repairing enzyme) replaces the RNA primer with DNA.
+
+* Drag DNA polymerase to the ssDNA region of the lagging strand.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>The gap is now going to be filled by the DNA polymerase.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>Before DNA ligase comes, the DNA polymerase leaves, leaving a nick ( unconnected sugars).
+
+Nick between the Okazaki fragments need to be sealed by the enzyme DNA ligase so that the 2 double helix are joined together.
+
+* Drag DNA ligase to the nicks. </string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>Before DNA ligase comes, the DNA polymerase leaves, leaving a nick ( unconnected sugars).
+
+Finally, the nick between the Okazaki fragments is sealed by the enzyme DNA ligase and 2 double helix are formed.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>Finally, the nick between the Okazaki fragments is sealed by the enzyme DNA ligase and 2 double helix are formed.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>Conclusions</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>DNA replication occurs prior to cell division so that there is no loss of DNA; the resulting daughter cells end up with the same amount of DNA as the original cell.
+
+DNA replication in all known cells occurs semiconservatively.
+
+Each of the original strands of DNA serves as a template for synthesizing a new DNA strand.
+
+The leading strand is synthesized continuously, while the lagging strand is synthesized discontinuously.
+
+Before the discontinuous stretches of newly synthesized DNA are joined together, they are known as Okazaki fragment.
+
+DNA synthesis requires a preexisting primer, which is synthesized by the enzyme RNA primes.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>Conclusions</string>
+		<key>imageKey</key>
+		<string></string>
+		<key>contentKey</key>
+		<string>The key enzymes in DNA replication are: 1) helices, which unwinds the double stranded DNA, 2) RNA primes, which synthesizes RNA primers, 3) DNA polymerase, which synthesizes DNA, 4) RNase H, which removes all of the nucleotides of the RNA primers except the last one, 5) DNA exonuclease, which removes the last RNA nucleotide( the RNA primer is replaced with a segment of newly synthesized DNA by another type of DNA polymerase( repairing enzyme), and 6) DNA ligase, which seals the nick between the Okazaki fragments through the formation of phosphodiester bonds. </string>
 	</dict>
 </array>
 </plist>

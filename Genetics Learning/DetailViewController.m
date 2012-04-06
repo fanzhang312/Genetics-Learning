@@ -10,7 +10,7 @@
 #import "StaticViewController.h"
 //#import "ContentController.h"
 
-static NSUInteger kNumberOfPages = 6;
+static NSUInteger kNumberOfPages = 11;
 static NSString *tittleKey = @"tittleKey";
 static NSString *imageKey = @"imageKey";
 static NSString *contentKey = @"contentKey";
@@ -116,7 +116,7 @@ static NSString *contentKey = @"contentKey";
             controller.numberTitle.text = [numberItem valueForKey:tittleKey];
             controller.numberContent.text = [numberItem valueForKey:contentKey];
             
-           
+            NSLog(@"%@",[numberItem valueForKey:imageKey]);
         }
     
 }
