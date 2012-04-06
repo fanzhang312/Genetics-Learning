@@ -54,6 +54,8 @@
 		B966B5FD152F409900616409 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = B966B5D4152F409900616409 /* 7.png */; };
 		B966B5FE152F409900616409 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = B966B5D5152F409900616409 /* 8.png */; };
 		B966B5FF152F409900616409 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = B966B5D6152F409900616409 /* 9.png */; };
+		B966B608152F4DDF00616409 /* StaticView6Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = B966B606152F4DDF00616409 /* StaticView6Controller.m */; };
+		B966B609152F4DDF00616409 /* StaticView6Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = B966B607152F4DDF00616409 /* StaticView6Controller.xib */; };
 		B996E7221529380000089A68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996E7211529380000089A68 /* UIKit.framework */; };
 		B996E7241529380000089A68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996E7231529380000089A68 /* Foundation.framework */; };
 		B996E7261529380000089A68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996E7251529380000089A68 /* CoreGraphics.framework */; };
@@ -116,6 +118,9 @@
 		B966B5D4152F409900616409 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
 		B966B5D5152F409900616409 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
 		B966B5D6152F409900616409 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		B966B605152F4DDF00616409 /* StaticView6Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticView6Controller.h; sourceTree = "<group>"; };
+		B966B606152F4DDF00616409 /* StaticView6Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticView6Controller.m; sourceTree = "<group>"; };
+		B966B607152F4DDF00616409 /* StaticView6Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StaticView6Controller.xib; sourceTree = "<group>"; };
 		B996E71D1529380000089A68 /* Genetics Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Genetics Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B996E7211529380000089A68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B996E7231529380000089A68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -239,6 +244,9 @@
 				BE9F96B6152C013B0098A24F /* StaticViewController.h */,
 				BE9F96B7152C013B0098A24F /* StaticViewController.m */,
 				BE9F96B8152C013B0098A24F /* StaticViewController.xib */,
+				B966B605152F4DDF00616409 /* StaticView6Controller.h */,
+				B966B606152F4DDF00616409 /* StaticView6Controller.m */,
+				B966B607152F4DDF00616409 /* StaticView6Controller.xib */,
 				B996E7281529380000089A68 /* Supporting Files */,
 			);
 			path = "Genetics Learning";
@@ -369,6 +377,7 @@
 				B966B5FD152F409900616409 /* 7.png in Resources */,
 				B966B5FE152F409900616409 /* 8.png in Resources */,
 				B966B5FF152F409900616409 /* 9.png in Resources */,
+				B966B609152F4DDF00616409 /* StaticView6Controller.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +393,7 @@
 				B996E73B1529387600089A68 /* MasterViewController.m in Sources */,
 				15830F2B152A01CC00977154 /* DetailViewController.m in Sources */,
 				BE9F96B9152C013B0098A24F /* StaticViewController.m in Sources */,
+				B966B608152F4DDF00616409 /* StaticView6Controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
