@@ -9,5 +9,21 @@
 #import <UIKit/UIKit.h>
 
 @interface StaticView6Controller : UIViewController
+{
+    UILabel *pageNumberLabel;
+    int pageNumber;
+    
+    UILabel *numberTitle;
+    UIImageView *numberImage;
+    UITextView *numberContent;
+}
+
+@property (strong, nonatomic) IBOutlet UILabel *numberTitle;
+@property (strong, nonatomic) IBOutlet UITextView *numberContent;
+@property (strong, nonatomic) IBOutlet UIImageView *numberImage;
+@property (strong, nonatomic) IBOutlet UILabel *pageNumberLabel;
+
+- (id) initWithPageNumber: (int) page;
 
 @end
+

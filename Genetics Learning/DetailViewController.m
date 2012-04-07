@@ -8,7 +8,7 @@
 
 #import "DetailViewController.h"
 #import "StaticViewController.h"
-//#import "ContentController.h"
+
 
 static NSUInteger kNumberOfPages = 29;
 static NSString *tittleKey = @"tittleKey";
@@ -25,30 +25,15 @@ static NSString *contentKey = @"contentKey";
 @synthesize contentList;
 
 
-
 - (void)viewDidLoad
 {
 	// load our data from a plist file inside our app bundle
     NSString *path = [[NSBundle mainBundle] pathForResource:@"chapter5" ofType:@"plist"];
     self.contentList = [NSArray arrayWithContentsOfFile:path];
-//    self.contentList = [NSDictionary dictionaryWithContentsOfFile:path]
-    
-    
-    
-    NSDictionary *myDic = [[NSDictionary alloc] initWithContentsOfFile:path];
-    NSLog(@"The count: %i",[myDic count]);
-    
-    NSArray *thisArray = [[NSArray alloc] initWithContentsOfFile:path];
-    NSLog(@"The array count: %i", [thisArray count]);
-    
-    
-    
     
     // view controllers are created lazily
     // in the meantime, load the array with placeholders which will be replaced on demand
     
-    
-    //NSLog(@"called");
     NSMutableArray *controllers = [[NSMutableArray alloc] init];
     for (unsigned i = 0; i < kNumberOfPages; i++)
     {
@@ -77,11 +62,6 @@ static NSString *contentKey = @"contentKey";
     [self loadScrollViewWithPage:0];
     [self loadScrollViewWithPage:1];
 }
-
-//- (UIView *)view
-//{
-//    return self.scrollView;
-//}
 
 - (void)loadScrollViewWithPage:(int)page
 {
@@ -178,7 +158,6 @@ static NSString *contentKey = @"contentKey";
         // Custom initialization
         
     }
-    NSLog(@"inited");
     return self;
 }
 

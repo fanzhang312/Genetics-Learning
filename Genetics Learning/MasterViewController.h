@@ -9,15 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @class DetailViewController;
+@class DetailViewController6;
 
 @interface MasterViewController : UITableViewController
 {
     NSMutableArray * list; 
-    DetailViewController *_detailViewController;
+    //DetailViewController *_detailViewController;
 }
 
 @property (strong, nonatomic) NSMutableArray *list;
-@property (strong, nonatomic) DetailViewController *detailViewController;
+//@property (strong, nonatomic) DetailViewController *detailViewController;
 
 
 @end

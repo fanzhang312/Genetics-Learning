@@ -1,15 +1,14 @@
 //
-//  DetailViewController.h
+//  DetailViewController6.h
 //  Genetics Learning
 //
-//  Created by Fan Zhang on 4/2/12.
+//  Created by Fan Zhang on 4/7/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
 //
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController <UIScrollViewDelegate>
+@interface DetailViewController6 : UIViewController <UIScrollViewDelegate>
 {
     UIScrollView *scrollView;
     UIPageControl *pageControl;
@@ -21,14 +20,14 @@
 }
 
 
-@property (retain, nonatomic) IBOutlet UIScrollView *scrollView;
-@property (retain, nonatomic) IBOutlet UIPageControl *pageControl;
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) IBOutlet UIPageControl *pageControl;
 
 @property (nonatomic, retain) NSMutableArray *viewControllers;
 
 @property (nonatomic, retain) NSArray *contentList;
 
-- (IBAction)changePage:(id)sender;
+
 
 - (void)loadScrollViewWithPage:(int)page;
 - (void)scrollViewDidScroll:(UIScrollView *)sender;

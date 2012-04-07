@@ -9,10 +9,11 @@
 #import "MasterViewController.h"
 
 #import "DetailViewController.h"
+#import "DetailViewController6.h"
 
 @implementation MasterViewController
 @synthesize list = _list;
-@synthesize detailViewController = _detailViewController;
+//@synthesize detailViewController = _detailViewController;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -187,8 +188,14 @@
      */
     
     if (indexPath.row == 4||indexPath.row == 5) {
-        DetailViewController *viewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
-        [self.navigationController pushViewController:viewController animated:YES];
+        if (indexPath.row == 4) {
+            DetailViewController *viewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
+            [self.navigationController pushViewController:viewController animated:YES];
+        }else{
+            DetailViewController6 *viewController = [[DetailViewController6 alloc] initWithNibName:@"DetailViewController6" bundle:nil];
+            [self.navigationController pushViewController:viewController animated:YES];
+
+        }
     }else {
         NSString *msg = [[NSString alloc] initWithFormat:@"The Section is under development. Please choose 5 or 6."];
         UIAlertView *alert = [[UIAlertView alloc]
