@@ -28,7 +28,7 @@
 @property (nonatomic, retain) NSArray *contentList;
 
 
-
+- (IBAction)changePage:(id)sender;
 - (void)loadScrollViewWithPage:(int)page;
 - (void)scrollViewDidScroll:(UIScrollView *)sender;
 
