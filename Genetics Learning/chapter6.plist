@@ -94,7 +94,7 @@ In this study, we will see how PCR can help us detect E. coli( the common bacter
 		<key>tittleKey</key>
 		<string>How PCR works</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>001.png</string>
 		<key>contentKey</key>
 		<string>Suppose we want to make many copies of the DNA segment below.</string>
 	</dict>
@@ -102,7 +102,7 @@ In this study, we will see how PCR can help us detect E. coli( the common bacter
 		<key>tittleKey</key>
 		<string>How PCR works</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>001.png</string>
 		<key>contentKey</key>
 		<string>Suppose we want to make many copies of the DNA segment below.
 
@@ -112,7 +112,7 @@ In DNA replication, the helices enzyme would first unwind the double helix.</str
 		<key>tittlekey</key>
 		<string>How PCR works</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>001.png</string>
 		<key>contentKey</key>
 		<string>Suppose we want to make many copies of the DNA segment below.
 
@@ -124,7 +124,7 @@ In PCR, we use heat to break the hydrogen bonds between the bases and separate t
 		<key>tittleKey</key>
 		<string>How PCR works</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>001.png</string>
 		<key>contentKey</key>
 		<string>Suppose we want to make many copies of the DNA segment below.
 
@@ -138,7 +138,7 @@ In PCR, we use heat to break the hydrogen bonds between the bases and separate t
 		<key>tittleKey</key>
 		<string>How PCR works ( cont.)</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>002.png</string>
 		<key>contentKey</key>
 		<string></string>
 	</dict>
@@ -148,7 +148,7 @@ In PCR, we use heat to break the hydrogen bonds between the bases and separate t
 How PCR works ( cont.)
 </string>
 		<key>imageKey</key>
-		<string></string>
+		<string>002.png</string>
 		<key>contentKey</key>
 		<string>In DNA replication, after the strands separate, RNA primes then generates RNA primers to initiate DNA synthesis. </string>
 	</dict>
@@ -157,7 +157,7 @@ How PCR works ( cont.)
 		<string>How PCR works ( cont.)
 </string>
 		<key>imageKey</key>
-		<string></string>
+		<string>002.png</string>
 		<key>contentKey</key>
 		<string>In DNA replication, after the strands separate, RNA primes then generates RNA primers to initiate DNA synthesis. 
 
@@ -167,7 +167,7 @@ In PCR we need to add our own primers.</string>
 		<key>tittleKey</key>
 		<string>How PCR works ( cont.)</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>002.png</string>
 		<key>contentKey</key>
 		<string>In DNA replication, after the strands separate, RNA primes then generates RNA primers to initiate DNA synthesis. 
 
@@ -179,7 +179,7 @@ Since DNA synthesis always proceeds in the 5&apos; to 3&apos; direction, the two
 		<key>tittleKey</key>
 		<string>How PCR works ( cont.)</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>002.png</string>
 		<key>contentKey</key>
 		<string>In DNA replication, after the strands separate, RNA primes then generates RNA primers to initiate DNA synthesis. 
 
@@ -194,7 +194,7 @@ Since DNA synthesis always proceeds in the 5&apos; to 3&apos; direction, the two
 		<string>How PCR works ( cont.)
 </string>
 		<key>imageKey</key>
-		<string></string>
+		<string>003.png</string>
 		<key>contentKey</key>
 		<string></string>
 	</dict>
@@ -203,7 +203,7 @@ Since DNA synthesis always proceeds in the 5&apos; to 3&apos; direction, the two
 		<string>How PCR works ( cont.)
 </string>
 		<key>imageKey</key>
-		<string></string>
+		<string>003.png</string>
 		<key>contentKey</key>
 		<string>In DNA replication, DNA polymerase then extends the primers in the 5&apos; to 3&apos; direction.</string>
 	</dict>
@@ -212,7 +212,7 @@ Since DNA synthesis always proceeds in the 5&apos; to 3&apos; direction, the two
 		<string>How PCR works ( cont.)
 </string>
 		<key>imageKey</key>
-		<string></string>
+		<string>003.png</string>
 		<key>contentKey</key>
 		<string>In DNA replication, DNA polymerase then extends the primers in the 5&apos; to 3&apos; direction.
 
@@ -222,7 +222,7 @@ In PCR, we use the enzyme Tag polymerase, a special enzyme which is not sensitiv
 		<key>tittleKey</key>
 		<string>How PCR works ( cont.)</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>003.png</string>
 		<key>contentKey</key>
 		<string>In DNA replication, DNA polymerase then extends the primers in the 5&apos; to 3&apos; direction.
 
@@ -232,107 +232,77 @@ In PCR, we use the enzyme Tag polymerase, a special enzyme which is not sensitiv
 	</dict>
 	<dict>
 		<key>tittleKey</key>
-		<string>Note that we now have 2 duplexes. </string>
+		<string>How PCR works ( cont.)
+</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>007.png</string>
 		<key>contentKey</key>
-		<string></string>
+		<string>Note that we now have 2 duplexes. </string>
 	</dict>
 	<dict>
 		<key>tittleKey</key>
-		<string>Note that we now have 2 duplexes. </string>
+		<string>How PCR works ( cont.)
+</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>008.png</string>
 		<key>contentKey</key>
-		<string>* To run the second cycle, increase the temperature to 94C again.</string>
+		<string>Note that we now have 2 duplexes. 
+
+* To run the second cycle, increase the temperature to 94C again.</string>
 	</dict>
 	<dict>
 		<key>tittleKey</key>
-		<string>Note that we now have 2 duplexes. </string>
+		<string>How PCR works ( cont.)
+</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>009.png</string>
 		<key>contentKey</key>
-		<string>The two duplexes are now separated into 4 single stranded templates. The upper 2 templates were from one duplex, and the lower 2 templates were from the other duplex.</string>
+		<string>Note that we now have 2 duplexes. 
+
+The two duplexes are now separated into 4 single stranded templates. The upper 2 templates were from one duplex, and the lower 2 templates were from the other duplex.</string>
 	</dict>
 	<dict>
 		<key>tittleKey</key>
-		<string>Note that we now have 2 duplexes. </string>
+		<string>How PCR works ( cont.)
+</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>009.png</string>
 		<key>contentKey</key>
 		<string>* Click next to see primers go to their complementary bases on the four strands and at the temperature of 55C.</string>
 	</dict>
 	<dict>
 		<key>tittleKey</key>
-		<string>Note that we now have 2 duplexes. </string>
+		<string>How PCR works ( cont.)
+</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>010.png</string>
 		<key>contentKey</key>
 		<string>At the second cycle, Tag polymerases attach to the 4 primers and are ready to start synthesis at 55C.</string>
 	</dict>
 	<dict>
 		<key>tittleKey</key>
+		<string>How PCR works ( cont.)
+</string>
+		<key>imageKey</key>
+		<string>011.png</string>
+		<key>contentKey</key>
 		<string>Now 4 duplexes are formed.</string>
-		<key>imageKey</key>
-		<string></string>
-		<key>contentKey</key>
-		<string></string>
 	</dict>
 	<dict>
 		<key>tittleKey</key>
-		<string>Now 4 duplexes are formed.</string>
+		<string>How PCR works ( cont.)
+</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>011.png</string>
 		<key>contentKey</key>
-		<string>Clearly, if we go through the cycle again, then we will make 8 duplexes.</string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string></string>
-		<key>imagekey</key>
-		<string></string>
-		<key>contentKey</key>
-		<string>If     2 duplexes are formed after 1 cycle ( 2 to the 1).</string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string></string>
-		<key>imageKey</key>
-		<string></string>
-		<key>contentKey</key>
-		<string>If     2 duplexes are formed after 1 cycle ( 2 to the 1).
-      
-       4 duplexes are formed after 2 cycle ( 2 to the 2).</string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string></string>
-		<key>imageKey</key>
-		<string></string>
-		<key>contentKey</key>
-		<string>If     2 duplexes are formed after 1 cycle ( 2 to the 1).
-      
-       4 duplexes are formed after 2 cycle ( 2 to the 2).
+		<string>Now 4 duplexes are formed.
 
-       8 duplexes are formed after 3 cycle ( 2 to the 3). </string>
+Clearly, if we go through the cycle again, then we will make 8 duplexes.</string>
 	</dict>
 	<dict>
 		<key>tittleKey</key>
-		<string></string>
-		<key>imageKey</key>
-		<string></string>
-		<key>contentKey</key>
-		<string>If     2 duplexes are formed after 1 cycle ( 2 to the 1).
-      
-       4 duplexes are formed after 2 cycle ( 2 to the 2).
-
-       8 duplexes are formed after 3 cycle ( 2 to the 3). 
-
-Then    2 to the n duplexes will be formed after n cycles.</string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string></string>
+		<string>How PCR works ( cont.)
+</string>
 		<key>imageKey</key>
 		<string></string>
 		<key>contentKey</key>
@@ -348,94 +318,6 @@ Then    2 to the n duplexes will be formed after n cycles.
 		If we complete 20 cycles, the 2 to the 20 = 1,048,576 duplexes will be formed - that&apos;s over a million copies.
 
 		This is a rough estimate of the number of copies amplified at the end of each PCR cycle. A more accurate estimation will be shown in module 9.</string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>When PCR is performed in the laboratory. The components needed for replication are:</string>
-		<key>imageKey</key>
-		<string></string>
-		<key>contentKey</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>When PCR is performed in the laboratory. The components needed for replication are:</string>
-		<key>imageKey</key>
-		<string></string>
-		<key>contentKey</key>
-		<string>DNA segment</string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>When PCR is performed in the laboratory. The components needed for replication are:
-</string>
-		<key>imageKey</key>
-		<string></string>
-		<key>contentKey</key>
-		<string>	DNA segment
-
-	Primers</string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>When PCR is performed in the laboratory. The components needed for replication are:</string>
-		<key>imageKey</key>
-		<string></string>
-		<key>contentKey</key>
-		<string>DNA segment
-
-	Primers
-	
-	Tag polymerase</string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>When PCR is performed in the laboratory. The components needed for replication are:</string>
-		<key>imageKey</key>
-		<string></string>
-		<key>contentKey</key>
-		<string>DNA segment
-
-	Primers
-	
-	Tag polymerase
-
-	and DNA bases ( A, C, G, T)</string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>When PCR is performed in the laboratory. The components needed for replication are:
-</string>
-		<key>imageKey</key>
-		<string></string>
-		<key>contentKey</key>
-		<string>	DNA segment
-
-	Primers
-	
-	Tag polymerase
-
-	and DNA bases ( A, C, G, T)
-  
-are all together in a tube.</string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>When PCR is performed in the laboratory. The components needed for replication are:</string>
-		<key>imageKey</key>
-		<string></string>
-		<key>contentKey</key>
-		<string>	DNA segment
-
-	Primers
-	
-	Tag polymerase
-
-	and DNA bases ( A, C, G, T)
-  
-are all together in a tube.
-
-The tube is then placed in a machine called a thermocycler, which increases and decreases the temperature automatically( from 95 to 55 to 72).</string>
 	</dict>
 	<dict>
 		<key>tittleKey</key>

@@ -10,7 +10,7 @@
 #import "StaticViewController.h"
 
 
-static NSUInteger kNumberOfPages = 29;
+static NSUInteger kNumberOfPages = 30;
 static NSString *tittleKey = @"tittleKey";
 static NSString *imageKey = @"imageKey";
 static NSString *contentKey = @"contentKey";

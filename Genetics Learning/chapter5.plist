@@ -71,6 +71,17 @@ After the double helix starts to unwind, proteins called single strand binding p
 	</dict>
 	<dict>
 		<key>tittleKey</key>
+		<string>DNA replication: leading &amp; lagging strand synthesis
+</string>
+		<key>imageKey</key>
+		<string>07.png</string>
+		<key>contentKey</key>
+		<string>As you have seen, many SSBs are bound to the newly separated DNA strands to prevent them from forming double helix again.
+
+Next, the RNA promise attaches to the unwound DNA strand. It is an enzyme that generates a short stretch of RNA primer that is complementary to DNA to initiate DNA synthesis.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
 		<string>DNA replication: leading &amp; lagging strand synthesis</string>
 		<key>imageKey</key>
 		<string>09.png</string>
@@ -216,7 +227,7 @@ The enzymes RNase H and 5&apos; exonuclease are going to remove the RNA primer.<
 		<key>tittleKey</key>
 		<string>DNA replication: leading &amp; lagging strand synthesis</string>
 		<key>imageKey</key>
-		<string>22.png</string>
+		<string>25.png</string>
 		<key>contentKey</key>
 		<string>The individual stretches of lagging strand DNA are called Okazaki fragments.
 
@@ -250,7 +261,7 @@ The enzymes RNase H and 5&apos; exonuclease are going to remove the RNA primer.
 		<key>tittleKey</key>
 		<string>DNA replication: leading &amp; lagging strand synthesis</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>28.png</string>
 		<key>contentKey</key>
 		<string>After the RNA primer is removed, a special type of DNA polymerase( repairing enzyme) replaces the RNA primer with DNA.
 
@@ -268,19 +279,7 @@ The enzymes RNase H and 5&apos; exonuclease are going to remove the RNA primer.
 		<key>tittleKey</key>
 		<string>DNA replication: leading &amp; lagging strand synthesis</string>
 		<key>imageKey</key>
-		<string></string>
-		<key>contentKey</key>
-		<string>Before DNA ligase comes, the DNA polymerase leaves, leaving a nick ( unconnected sugars).
-
-Nick between the Okazaki fragments need to be sealed by the enzyme DNA ligase so that the 2 double helix are joined together.
-
-* Drag DNA ligase to the nicks. </string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>DNA replication: leading &amp; lagging strand synthesis</string>
-		<key>imageKey</key>
-		<string>30.png</string>
+		<string>28.png</string>
 		<key>contentKey</key>
 		<string>Before DNA ligase comes, the DNA polymerase leaves, leaving a nick ( unconnected sugars).
 
@@ -290,7 +289,7 @@ Finally, the nick between the Okazaki fragments is sealed by the enzyme DNA liga
 		<key>tittleKey</key>
 		<string>DNA replication: leading &amp; lagging strand synthesis</string>
 		<key>imageKey</key>
-		<string></string>
+		<string>31.png</string>
 		<key>contentKey</key>
 		<string>Finally, the nick between the Okazaki fragments is sealed by the enzyme DNA ligase and 2 double helix are formed.</string>
 	</dict>

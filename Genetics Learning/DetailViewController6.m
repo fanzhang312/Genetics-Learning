@@ -9,7 +9,7 @@
 #import "DetailViewController6.h"
 #import "StaticView6Controller.h"
 
-static NSUInteger kNumberOfPages = 39;
+static NSUInteger kNumberOfPages = 28;
 static NSString *tittleKey = @"tittleKey";
 static NSString *imageKey = @"imageKey";
 static NSString *contentKey = @"contentKey";
