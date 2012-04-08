@@ -15,6 +15,7 @@
 @synthesize numberImage;
 @synthesize numberContent;
 
+
 - (id)initWithPageNumber:(int)page
 {
     if (self = [super initWithNibName:@"StaticViewController" bundle:nil]) {
@@ -55,6 +56,7 @@
     [self setNumberImage:nil];
     [self setNumberContent:nil];
     [self setPageNumberLabel:nil];
+
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

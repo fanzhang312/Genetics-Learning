@@ -8,7 +8,7 @@
 
 #import "DetailViewController.h"
 #import "StaticViewController.h"
-
+#import "chapter5Drag.h"
 
 static NSUInteger kNumberOfPages = 30;
 static NSString *tittleKey = @"tittleKey";
@@ -70,35 +70,55 @@ static NSString *contentKey = @"contentKey";
     if (page >= kNumberOfPages)
         return;
     
-    
-        // replace the placeholder if necessary
-        StaticViewController *controller = [viewControllers objectAtIndex:page];
-        if ((NSNull *)controller == [NSNull null])
-        {
-            controller = [[StaticViewController alloc] initWithPageNumber:page];
+    switch (page) {
+        case 4:{
+            chapter5Drag *controller = [viewControllers objectAtIndex:page];
+            controller = [[chapter5Drag alloc] initWithNibName:@"chapter5Drag" bundle:nil];
             [viewControllers replaceObjectAtIndex:page withObject:controller];
             controller.view.userInteractionEnabled = YES;
             
-        }
-        
-        // add the controller's view to the scroll view
-        if (controller.view.superview == nil)
-        {
+            // add the controller's view to the scroll view
             CGRect frame = scrollView.frame;
             frame.origin.x = frame.size.width * page;
             frame.origin.y = 0;
             controller.view.frame = frame;
             [scrollView addSubview:controller.view];   
+        }break;
             
+        default:{
+            // replace the placeholder if necessary
+            StaticViewController *controller = [viewControllers objectAtIndex:page];
+            if ((NSNull *)controller == [NSNull null])
+            {
+                controller = [[StaticViewController alloc] initWithPageNumber:page];
+                [viewControllers replaceObjectAtIndex:page withObject:controller];
+                controller.view.userInteractionEnabled = YES;
+                
+            }
             
-            NSDictionary *numberItem = [self.contentList objectAtIndex:page];
-            controller.numberImage.image = [UIImage imageNamed:[numberItem valueForKey:imageKey]];
-            controller.numberTitle.text = [numberItem valueForKey:tittleKey];
-            controller.numberContent.text = [numberItem valueForKey:contentKey];
-            
-            NSLog(@"%@",[numberItem valueForKey:imageKey]);
+            // add the controller's view to the scroll view
+            if (controller.view.superview == nil)
+            {
+                CGRect frame = scrollView.frame;
+                frame.origin.x = frame.size.width * page;
+                frame.origin.y = 0;
+                controller.view.frame = frame;
+                [scrollView addSubview:controller.view];   
+                
+                
+                NSDictionary *numberItem = [self.contentList objectAtIndex:page];
+                controller.numberImage.image = [UIImage imageNamed:[numberItem valueForKey:imageKey]];
+                controller.numberTitle.text = [numberItem valueForKey:tittleKey];
+                controller.numberContent.text = [numberItem valueForKey:contentKey];
+                
+                NSLog(@"page %d",pageControl.currentPage);
+            }
+
         }
-    
+            break;
+    }
+        
+           
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)sender
