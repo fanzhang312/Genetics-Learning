@@ -12,6 +12,7 @@
 #import "chapter5Drag2.h"
 #import "chapter5Drag3.h"
 
+
 static NSUInteger kNumberOfPages = 30;
 static NSString *tittleKey = @"tittleKey";
 static NSString *imageKey = @"imageKey";
@@ -101,7 +102,7 @@ static NSString *contentKey = @"contentKey";
         }break;
         case 7:{
             chapter5Drag3 *controller = [viewControllers objectAtIndex:page];
-            controller = [[chapter5Drag3 alloc] initWithNibName:@"chapter5Drag2" bundle:nil];
+            controller = [[chapter5Drag3 alloc] initWithNibName:@"chapter5Drag3" bundle:nil];
             [viewControllers replaceObjectAtIndex:page withObject:controller];
             controller.view.userInteractionEnabled = YES;
             
@@ -139,7 +140,7 @@ static NSString *contentKey = @"contentKey";
                 controller.numberTitle.text = [numberItem valueForKey:tittleKey];
                 controller.numberContent.text = [numberItem valueForKey:contentKey];
                 
-                NSLog(@"page %d",pageControl.currentPage);
+                NSLog(@"page %d",page);
             }
 
         }

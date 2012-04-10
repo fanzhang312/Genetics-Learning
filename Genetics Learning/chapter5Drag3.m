@@ -2,7 +2,7 @@
 //  chapter5Drag3.m
 //  Genetics Learning
 //
-//  Created by Fan Zhang on 4/9/12.
+//  Created by Fan Zhang on 4/10/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -13,7 +13,6 @@
 @synthesize leftfront;
 @synthesize rightfront;
 @synthesize redcircle;
-
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -134,5 +133,7 @@
     self.rightfront.transform = CGAffineTransformIdentity;
     
 }
+
+
 
 @end
