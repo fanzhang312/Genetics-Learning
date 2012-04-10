@@ -9,6 +9,8 @@
 #import "DetailViewController.h"
 #import "StaticViewController.h"
 #import "chapter5Drag.h"
+#import "chapter5Drag2.h"
+#import "chapter5Drag3.h"
 
 static NSUInteger kNumberOfPages = 30;
 static NSString *tittleKey = @"tittleKey";
@@ -74,6 +76,32 @@ static NSString *contentKey = @"contentKey";
         case 4:{
             chapter5Drag *controller = [viewControllers objectAtIndex:page];
             controller = [[chapter5Drag alloc] initWithNibName:@"chapter5Drag" bundle:nil];
+            [viewControllers replaceObjectAtIndex:page withObject:controller];
+            controller.view.userInteractionEnabled = YES;
+            
+            // add the controller's view to the scroll view
+            CGRect frame = scrollView.frame;
+            frame.origin.x = frame.size.width * page;
+            frame.origin.y = 0;
+            controller.view.frame = frame;
+            [scrollView addSubview:controller.view];   
+        }break;
+        case 5:{
+            chapter5Drag2 *controller = [viewControllers objectAtIndex:page];
+            controller = [[chapter5Drag2 alloc] initWithNibName:@"chapter5Drag2" bundle:nil];
+            [viewControllers replaceObjectAtIndex:page withObject:controller];
+            controller.view.userInteractionEnabled = YES;
+            
+            // add the controller's view to the scroll view
+            CGRect frame = scrollView.frame;
+            frame.origin.x = frame.size.width * page;
+            frame.origin.y = 0;
+            controller.view.frame = frame;
+            [scrollView addSubview:controller.view];   
+        }break;
+        case 7:{
+            chapter5Drag3 *controller = [viewControllers objectAtIndex:page];
+            controller = [[chapter5Drag3 alloc] initWithNibName:@"chapter5Drag2" bundle:nil];
             [viewControllers replaceObjectAtIndex:page withObject:controller];
             controller.view.userInteractionEnabled = YES;
             

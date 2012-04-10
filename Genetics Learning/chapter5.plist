@@ -57,9 +57,7 @@ into single-stranded DNA.
 	</dict>
 	<dict>
 		<key>tittleKey</key>
-		<string>DNA replication: leading &amp; lagging strand synthesis
-DNA replication: leading &amp; lagging strand synthesis
-</string>
+		<string>DNA replication: leading &amp; lagging strand synthesis</string>
 		<key>imageKey</key>
 		<string>06.png</string>
 		<key>contentKey</key>

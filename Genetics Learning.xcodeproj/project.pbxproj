@@ -71,6 +71,10 @@
 		BE674FDD152D43E300C18493 /* chapter5.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE674FDC152D43E300C18493 /* chapter5.plist */; };
 		BE9F96B9152C013B0098A24F /* StaticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9F96B7152C013B0098A24F /* StaticViewController.m */; };
 		BE9F96BA152C013B0098A24F /* StaticViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9F96B8152C013B0098A24F /* StaticViewController.xib */; };
+		BEB2BE051533E1AE00ACEB35 /* chapter5Drag2.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB2BE031533E1AE00ACEB35 /* chapter5Drag2.m */; };
+		BEB2BE061533E1AE00ACEB35 /* chapter5Drag2.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEB2BE041533E1AE00ACEB35 /* chapter5Drag2.xib */; };
+		BEB2BE0A1533E77900ACEB35 /* chapter5Drag3.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB2BE081533E77900ACEB35 /* chapter5Drag3.m */; };
+		BEB2BE0B1533E77900ACEB35 /* chapter5Drag3.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEB2BE091533E77900ACEB35 /* chapter5Drag3.xib */; };
 		BEDD979B153226BD003697AF /* 1leftback.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDD9776153226BD003697AF /* 1leftback.png */; };
 		BEDD979C153226BD003697AF /* 1leftfront.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDD9777153226BD003697AF /* 1leftfront.png */; };
 		BEDD979D153226BD003697AF /* 1rightback.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDD9778153226BD003697AF /* 1rightback.png */; };
@@ -190,6 +194,12 @@
 		BE9F96B6152C013B0098A24F /* StaticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticViewController.h; sourceTree = "<group>"; };
 		BE9F96B7152C013B0098A24F /* StaticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticViewController.m; sourceTree = "<group>"; };
 		BE9F96B8152C013B0098A24F /* StaticViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StaticViewController.xib; sourceTree = "<group>"; };
+		BEB2BE021533E1AE00ACEB35 /* chapter5Drag2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter5Drag2.h; sourceTree = "<group>"; };
+		BEB2BE031533E1AE00ACEB35 /* chapter5Drag2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chapter5Drag2.m; sourceTree = "<group>"; };
+		BEB2BE041533E1AE00ACEB35 /* chapter5Drag2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chapter5Drag2.xib; sourceTree = "<group>"; };
+		BEB2BE071533E77900ACEB35 /* chapter5Drag3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter5Drag3.h; sourceTree = "<group>"; };
+		BEB2BE081533E77900ACEB35 /* chapter5Drag3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chapter5Drag3.m; sourceTree = "<group>"; };
+		BEB2BE091533E77900ACEB35 /* chapter5Drag3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chapter5Drag3.xib; sourceTree = "<group>"; };
 		BEDD9776153226BD003697AF /* 1leftback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1leftback.png; sourceTree = "<group>"; };
 		BEDD9777153226BD003697AF /* 1leftfront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1leftfront.png; sourceTree = "<group>"; };
 		BEDD9778153226BD003697AF /* 1rightback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1rightback.png; sourceTree = "<group>"; };
@@ -337,10 +347,8 @@
 				B966B605152F4DDF00616409 /* StaticView6Controller.h */,
 				B966B606152F4DDF00616409 /* StaticView6Controller.m */,
 				B966B607152F4DDF00616409 /* StaticView6Controller.xib */,
+				BEB2BE001533E14600ACEB35 /* DragSlides */,
 				B996E7281529380000089A68 /* Supporting Files */,
-				BEDD97CD15322AE0003697AF /* chapter5Drag.h */,
-				BEDD97CE15322AE0003697AF /* chapter5Drag.m */,
-				BEDD97CF15322AE0003697AF /* chapter5Drag.xib */,
 			);
 			path = "Genetics Learning";
 			sourceTree = "<group>";
@@ -392,6 +400,22 @@
 			);
 			name = Resources;
 			path = "Genetics Learning";
+			sourceTree = "<group>";
+		};
+		BEB2BE001533E14600ACEB35 /* DragSlides */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD97CD15322AE0003697AF /* chapter5Drag.h */,
+				BEDD97CE15322AE0003697AF /* chapter5Drag.m */,
+				BEDD97CF15322AE0003697AF /* chapter5Drag.xib */,
+				BEB2BE021533E1AE00ACEB35 /* chapter5Drag2.h */,
+				BEB2BE031533E1AE00ACEB35 /* chapter5Drag2.m */,
+				BEB2BE041533E1AE00ACEB35 /* chapter5Drag2.xib */,
+				BEB2BE071533E77900ACEB35 /* chapter5Drag3.h */,
+				BEB2BE081533E77900ACEB35 /* chapter5Drag3.m */,
+				BEB2BE091533E77900ACEB35 /* chapter5Drag3.xib */,
+			);
+			name = DragSlides;
 			sourceTree = "<group>";
 		};
 		BEDD9775153226BD003697AF /* chapter5Animation */ = {
@@ -584,6 +608,8 @@
 				BEDD97C7153226DE003697AF /* rightfront_6_1.png in Resources */,
 				BEDD97C8153226DE003697AF /* rightfront_6_2.png in Resources */,
 				BEDD97D115322AE0003697AF /* chapter5Drag.xib in Resources */,
+				BEB2BE061533E1AE00ACEB35 /* chapter5Drag2.xib in Resources */,
+				BEB2BE0B1533E77900ACEB35 /* chapter5Drag3.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +628,8 @@
 				B966B608152F4DDF00616409 /* StaticView6Controller.m in Sources */,
 				BE0386E71530E17A00F7F100 /* DetailViewController6.m in Sources */,
 				BEDD97D015322AE0003697AF /* chapter5Drag.m in Sources */,
+				BEB2BE051533E1AE00ACEB35 /* chapter5Drag2.m in Sources */,
+				BEB2BE0A1533E77900ACEB35 /* chapter5Drag3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
