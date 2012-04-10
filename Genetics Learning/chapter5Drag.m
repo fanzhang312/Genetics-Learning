@@ -37,6 +37,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    //[(UIScrollView *)self.view.superview setUserInteractionEnabled:NO];
 }
 
 - (void)viewDidUnload
@@ -82,25 +83,24 @@
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-   // [(UIScrollView *)self.view.superview setUserInteractionEnabled:NO];
+    // Temporarily disable the scrollview when drag begins
+    ((UIScrollView *)self.view.superview).scrollEnabled=NO;
+    
     for (UITouch *touch in touches) {
-        if (CGRectContainsPoint([self.rightfront1 frame], [touch locationInView:self.view])) {
-            [(UIScrollView *)self.view.superview setUserInteractionEnabled:NO];
+        if (CGRectContainsPoint([self.rightfront1 frame], [touch locationInView:self.view])) {         
             [UIView beginAnimations:nil context:nil];
             [UIView setAnimationDuration:0.15];
             self.rightfront1.transform = CGAffineTransformMakeScale(1.6, 1.6);
             [UIView commitAnimations];
-            NSLog(@"begin:\n");
-            NSLog(@"self.view:%d\n",self.view.userInteractionEnabled);
-            UIScrollView *tmp = (UIScrollView *)self.view.superview;
-            NSLog(@"self.view.superView:%d\n",tmp.userInteractionEnabled);
-            
-            
+            NSLog(@"touches begin:\n");
+                      
         }
     }
 }
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
+    // Still disable the scrollview when drag moves
+    ((UIScrollView *)self.view.superview).scrollEnabled=NO;
     for (UITouch *touch in touches)
     {
         
@@ -120,18 +120,20 @@
 }
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
+    // Enable the scrollview when drag finish
+    ((UIScrollView *)self.view.superview).scrollEnabled=YES;
     NSLog(@"ended");
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:0.15];
     self.rightfront1.transform = CGAffineTransformIdentity;
     [UIView commitAnimations];
-    [(UIScrollView *)self.view.superview setUserInteractionEnabled:YES];
 }
 -(void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
 {
     NSLog(@"cancelled");
+    ((UIScrollView *)self.view.superview).scrollEnabled=YES;
     self.rightfront1.transform = CGAffineTransformIdentity;
-    [(UIScrollView *)self.view.superview setUserInteractionEnabled:YES];
+
 }
 
 @end
