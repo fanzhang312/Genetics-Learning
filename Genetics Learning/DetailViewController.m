@@ -11,7 +11,12 @@
 #import "chapter5Drag.h"
 #import "chapter5Drag2.h"
 #import "chapter5Drag3.h"
-
+#import "chapter5Drag4.h"
+#import "chapter5Drag5.h"
+#import "chapter5Drag6.h"
+#import "chapter5Drag7.h"
+#import "chapter5Drag8.h"
+#import "chapter5Drag9.h"
 
 static NSUInteger kNumberOfPages = 30;
 static NSString *tittleKey = @"tittleKey";
@@ -103,6 +108,84 @@ static NSString *contentKey = @"contentKey";
         case 7:{
             chapter5Drag3 *controller = [viewControllers objectAtIndex:page];
             controller = [[chapter5Drag3 alloc] initWithNibName:@"chapter5Drag3" bundle:nil];
+            [viewControllers replaceObjectAtIndex:page withObject:controller];
+            controller.view.userInteractionEnabled = YES;
+            
+            // add the controller's view to the scroll view
+            CGRect frame = scrollView.frame;
+            frame.origin.x = frame.size.width * page;
+            frame.origin.y = 0;
+            controller.view.frame = frame;
+            [scrollView addSubview:controller.view];   
+        }break;
+        case 9:{
+            chapter5Drag4 *controller = [viewControllers objectAtIndex:page];
+            controller = [[chapter5Drag4 alloc] initWithNibName:@"chapter5Drag4" bundle:nil];
+            [viewControllers replaceObjectAtIndex:page withObject:controller];
+            controller.view.userInteractionEnabled = YES;
+            
+            // add the controller's view to the scroll view
+            CGRect frame = scrollView.frame;
+            frame.origin.x = frame.size.width * page;
+            frame.origin.y = 0;
+            controller.view.frame = frame;
+            [scrollView addSubview:controller.view];   
+        }break;
+        case 11:{
+            chapter5Drag5 *controller = [viewControllers objectAtIndex:page];
+            controller = [[chapter5Drag5 alloc] initWithNibName:@"chapter5Drag5" bundle:nil];
+            [viewControllers replaceObjectAtIndex:page withObject:controller];
+            controller.view.userInteractionEnabled = YES;
+            
+            // add the controller's view to the scroll view
+            CGRect frame = scrollView.frame;
+            frame.origin.x = frame.size.width * page;
+            frame.origin.y = 0;
+            controller.view.frame = frame;
+            [scrollView addSubview:controller.view];   
+        }break;
+        case 21:{
+            chapter5Drag6 *controller = [viewControllers objectAtIndex:page];
+            controller = [[chapter5Drag6 alloc] initWithNibName:@"chapter5Drag6" bundle:nil];
+            [viewControllers replaceObjectAtIndex:page withObject:controller];
+            controller.view.userInteractionEnabled = YES;
+            
+            // add the controller's view to the scroll view
+            CGRect frame = scrollView.frame;
+            frame.origin.x = frame.size.width * page;
+            frame.origin.y = 0;
+            controller.view.frame = frame;
+            [scrollView addSubview:controller.view];   
+        }break;
+        case 22:{
+            chapter5Drag7 *controller = [viewControllers objectAtIndex:page];
+            controller = [[chapter5Drag7 alloc] initWithNibName:@"chapter5Drag7" bundle:nil];
+            [viewControllers replaceObjectAtIndex:page withObject:controller];
+            controller.view.userInteractionEnabled = YES;
+            
+            // add the controller's view to the scroll view
+            CGRect frame = scrollView.frame;
+            frame.origin.x = frame.size.width * page;
+            frame.origin.y = 0;
+            controller.view.frame = frame;
+            [scrollView addSubview:controller.view];   
+        }break;
+        case 24:{
+            chapter5Drag8 *controller = [viewControllers objectAtIndex:page];
+            controller = [[chapter5Drag8 alloc] initWithNibName:@"chapter5Drag8" bundle:nil];
+            [viewControllers replaceObjectAtIndex:page withObject:controller];
+            controller.view.userInteractionEnabled = YES;
+            
+            // add the controller's view to the scroll view
+            CGRect frame = scrollView.frame;
+            frame.origin.x = frame.size.width * page;
+            frame.origin.y = 0;
+            controller.view.frame = frame;
+            [scrollView addSubview:controller.view];   
+        }break;
+        case 26:{
+            chapter5Drag9 *controller = [viewControllers objectAtIndex:page];
+            controller = [[chapter5Drag9 alloc] initWithNibName:@"chapter5Drag9" bundle:nil];
             [viewControllers replaceObjectAtIndex:page withObject:controller];
             controller.view.userInteractionEnabled = YES;
             

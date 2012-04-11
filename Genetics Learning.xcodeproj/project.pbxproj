@@ -118,6 +118,18 @@
 		BEDD97C8153226DE003697AF /* rightfront_6_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDD97C4153226DE003697AF /* rightfront_6_2.png */; };
 		BEDD97D015322AE0003697AF /* chapter5Drag.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDD97CE15322AE0003697AF /* chapter5Drag.m */; };
 		BEDD97D115322AE0003697AF /* chapter5Drag.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEDD97CF15322AE0003697AF /* chapter5Drag.xib */; };
+		BEF7522415351CAE006320BB /* chapter5Drag4.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7522215351CAE006320BB /* chapter5Drag4.m */; };
+		BEF7522515351CAE006320BB /* chapter5Drag4.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF7522315351CAE006320BB /* chapter5Drag4.xib */; };
+		BEF7522A153520D4006320BB /* chapter5Drag5.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF75228153520D4006320BB /* chapter5Drag5.m */; };
+		BEF7522B153520D4006320BB /* chapter5Drag5.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF75229153520D4006320BB /* chapter5Drag5.xib */; };
+		BEF7522F153520E5006320BB /* chapter5Drag6.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7522D153520E5006320BB /* chapter5Drag6.m */; };
+		BEF75230153520E5006320BB /* chapter5Drag6.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF7522E153520E5006320BB /* chapter5Drag6.xib */; };
+		BEF75234153520F5006320BB /* chapter5Drag7.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF75232153520F5006320BB /* chapter5Drag7.m */; };
+		BEF75235153520F5006320BB /* chapter5Drag7.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF75233153520F5006320BB /* chapter5Drag7.xib */; };
+		BEF752391535210A006320BB /* chapter5Drag8.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF752371535210A006320BB /* chapter5Drag8.m */; };
+		BEF7523A1535210A006320BB /* chapter5Drag8.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF752381535210A006320BB /* chapter5Drag8.xib */; };
+		BEF7523E1535211D006320BB /* chapter5Drag9.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7523C1535211C006320BB /* chapter5Drag9.m */; };
+		BEF7523F1535211D006320BB /* chapter5Drag9.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF7523D1535211D006320BB /* chapter5Drag9.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -244,6 +256,24 @@
 		BEDD97CD15322AE0003697AF /* chapter5Drag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter5Drag.h; sourceTree = "<group>"; };
 		BEDD97CE15322AE0003697AF /* chapter5Drag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chapter5Drag.m; sourceTree = "<group>"; };
 		BEDD97CF15322AE0003697AF /* chapter5Drag.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chapter5Drag.xib; sourceTree = "<group>"; };
+		BEF7522115351CAE006320BB /* chapter5Drag4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter5Drag4.h; sourceTree = "<group>"; };
+		BEF7522215351CAE006320BB /* chapter5Drag4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chapter5Drag4.m; sourceTree = "<group>"; };
+		BEF7522315351CAE006320BB /* chapter5Drag4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chapter5Drag4.xib; sourceTree = "<group>"; };
+		BEF75227153520D3006320BB /* chapter5Drag5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter5Drag5.h; sourceTree = "<group>"; };
+		BEF75228153520D4006320BB /* chapter5Drag5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chapter5Drag5.m; sourceTree = "<group>"; };
+		BEF75229153520D4006320BB /* chapter5Drag5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chapter5Drag5.xib; sourceTree = "<group>"; };
+		BEF7522C153520E5006320BB /* chapter5Drag6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter5Drag6.h; sourceTree = "<group>"; };
+		BEF7522D153520E5006320BB /* chapter5Drag6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chapter5Drag6.m; sourceTree = "<group>"; };
+		BEF7522E153520E5006320BB /* chapter5Drag6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chapter5Drag6.xib; sourceTree = "<group>"; };
+		BEF75231153520F5006320BB /* chapter5Drag7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter5Drag7.h; sourceTree = "<group>"; };
+		BEF75232153520F5006320BB /* chapter5Drag7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chapter5Drag7.m; sourceTree = "<group>"; };
+		BEF75233153520F5006320BB /* chapter5Drag7.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chapter5Drag7.xib; sourceTree = "<group>"; };
+		BEF752361535210A006320BB /* chapter5Drag8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter5Drag8.h; sourceTree = "<group>"; };
+		BEF752371535210A006320BB /* chapter5Drag8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chapter5Drag8.m; sourceTree = "<group>"; };
+		BEF752381535210A006320BB /* chapter5Drag8.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chapter5Drag8.xib; sourceTree = "<group>"; };
+		BEF7523B1535211C006320BB /* chapter5Drag9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter5Drag9.h; sourceTree = "<group>"; };
+		BEF7523C1535211C006320BB /* chapter5Drag9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chapter5Drag9.m; sourceTree = "<group>"; };
+		BEF7523D1535211D006320BB /* chapter5Drag9.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chapter5Drag9.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -414,6 +444,24 @@
 				BE4B92271534DD9E009FB76B /* chapter5Drag3.h */,
 				BE4B92281534DD9E009FB76B /* chapter5Drag3.m */,
 				BE4B92291534DD9E009FB76B /* chapter5Drag3.xib */,
+				BEF7522115351CAE006320BB /* chapter5Drag4.h */,
+				BEF7522215351CAE006320BB /* chapter5Drag4.m */,
+				BEF7522315351CAE006320BB /* chapter5Drag4.xib */,
+				BEF75227153520D3006320BB /* chapter5Drag5.h */,
+				BEF75228153520D4006320BB /* chapter5Drag5.m */,
+				BEF75229153520D4006320BB /* chapter5Drag5.xib */,
+				BEF7522C153520E5006320BB /* chapter5Drag6.h */,
+				BEF7522D153520E5006320BB /* chapter5Drag6.m */,
+				BEF7522E153520E5006320BB /* chapter5Drag6.xib */,
+				BEF75231153520F5006320BB /* chapter5Drag7.h */,
+				BEF75232153520F5006320BB /* chapter5Drag7.m */,
+				BEF75233153520F5006320BB /* chapter5Drag7.xib */,
+				BEF752361535210A006320BB /* chapter5Drag8.h */,
+				BEF752371535210A006320BB /* chapter5Drag8.m */,
+				BEF752381535210A006320BB /* chapter5Drag8.xib */,
+				BEF7523B1535211C006320BB /* chapter5Drag9.h */,
+				BEF7523C1535211C006320BB /* chapter5Drag9.m */,
+				BEF7523D1535211D006320BB /* chapter5Drag9.xib */,
 			);
 			name = DragSlides;
 			sourceTree = "<group>";
@@ -610,6 +658,12 @@
 				BEDD97D115322AE0003697AF /* chapter5Drag.xib in Resources */,
 				BEB2BE061533E1AE00ACEB35 /* chapter5Drag2.xib in Resources */,
 				BE4B922B1534DD9E009FB76B /* chapter5Drag3.xib in Resources */,
+				BEF7522515351CAE006320BB /* chapter5Drag4.xib in Resources */,
+				BEF7522B153520D4006320BB /* chapter5Drag5.xib in Resources */,
+				BEF75230153520E5006320BB /* chapter5Drag6.xib in Resources */,
+				BEF75235153520F5006320BB /* chapter5Drag7.xib in Resources */,
+				BEF7523A1535210A006320BB /* chapter5Drag8.xib in Resources */,
+				BEF7523F1535211D006320BB /* chapter5Drag9.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,6 +684,12 @@
 				BEDD97D015322AE0003697AF /* chapter5Drag.m in Sources */,
 				BEB2BE051533E1AE00ACEB35 /* chapter5Drag2.m in Sources */,
 				BE4B922A1534DD9E009FB76B /* chapter5Drag3.m in Sources */,
+				BEF7522415351CAE006320BB /* chapter5Drag4.m in Sources */,
+				BEF7522A153520D4006320BB /* chapter5Drag5.m in Sources */,
+				BEF7522F153520E5006320BB /* chapter5Drag6.m in Sources */,
+				BEF75234153520F5006320BB /* chapter5Drag7.m in Sources */,
+				BEF752391535210A006320BB /* chapter5Drag8.m in Sources */,
+				BEF7523E1535211D006320BB /* chapter5Drag9.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

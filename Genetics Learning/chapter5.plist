@@ -281,7 +281,9 @@ The enzymes RNase H and 5&apos; exonuclease are going to remove the RNA primer.
 		<key>contentKey</key>
 		<string>Before DNA ligase comes, the DNA polymerase leaves, leaving a nick ( unconnected sugars).
 
-Finally, the nick between the Okazaki fragments is sealed by the enzyme DNA ligase and 2 double helix are formed.</string>
+Finally, the nick between the Okazaki fragments is sealed by the enzyme DNA ligase and 2 double helix are formed.
+        
+* Drag DNA ligase to the Nicks.</string>
 	</dict>
 	<dict>
 		<key>tittleKey</key>

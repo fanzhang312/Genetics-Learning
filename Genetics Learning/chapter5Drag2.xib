@@ -89,9 +89,9 @@
 bmRlZCBETkEgaXMgY2FsbGVkIHJlcGxpY2F0aW9uIGZvcmsuCgpBZnRlciB0aGUgZG91YmxlIGhlbGl4
 IHN0YXJ0cyB0byB1bndpbmQsIHByb3RlaW5zIGNhbGxlZCBzaW5nbGUgc3RyYW5kIGJpbmRpbmcgcHJv
 dGVpbnMsIG9yIFNTQnMsIGF0dGFjaGVkIHRvIHRoZSBzaW5nbGUgc3RyYW5kcyB0byBwcmV2ZW50IHRo
-ZW0gZnJvbSBjb21pbmcgYmFjayB0b2dldGhlci4KCiogRHJhZyBvbmUgU1NCIHRvIHRoZSAzJmFwb3M7
-IGVuZCBvZiBvbmUgc2luZ2xlIHN0cmFuZCwgYW5kIGRyYWcgdGhlIFNTQiB0byB0aGUgNSZhcG9zOyBl
-bmQgb2YgdGhlIG90aGVyIHNpbmdsZSBzdHJhbmQuA</string>
+ZW0gZnJvbSBjb21pbmcgYmFjayB0b2dldGhlci4KCiogRHJhZyBvbmUgU1NCIHRvIHRoZSAzJyBlbmQg
+b2Ygb25lIHNpbmdsZSBzdHJhbmQsIGFuZCBkcmFnIHRoZSBTU0IgdG8gdGhlIDUnIGVuZCBvZiB0aGUg
+b3RoZXIgc2luZ2xlIHN0cmFuZC4</string>
 						<reference key="IBUITextColor" ref="692073392"/>
 						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 							<int key="IBUIAutocapitalizationType">2</int>
