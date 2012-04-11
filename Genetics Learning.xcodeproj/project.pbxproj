@@ -130,6 +130,8 @@
 		BEF7523A1535210A006320BB /* chapter5Drag8.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF752381535210A006320BB /* chapter5Drag8.xib */; };
 		BEF7523E1535211D006320BB /* chapter5Drag9.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7523C1535211C006320BB /* chapter5Drag9.m */; };
 		BEF7523F1535211D006320BB /* chapter5Drag9.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF7523D1535211D006320BB /* chapter5Drag9.xib */; };
+		BEF752431535324D006320BB /* chapter6Interaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF752411535324C006320BB /* chapter6Interaction.m */; };
+		BEF752441535324D006320BB /* chapter6Interaction.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF752421535324C006320BB /* chapter6Interaction.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -274,6 +276,9 @@
 		BEF7523B1535211C006320BB /* chapter5Drag9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter5Drag9.h; sourceTree = "<group>"; };
 		BEF7523C1535211C006320BB /* chapter5Drag9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chapter5Drag9.m; sourceTree = "<group>"; };
 		BEF7523D1535211D006320BB /* chapter5Drag9.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chapter5Drag9.xib; sourceTree = "<group>"; };
+		BEF752401535324C006320BB /* chapter6Interaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter6Interaction.h; sourceTree = "<group>"; };
+		BEF752411535324C006320BB /* chapter6Interaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chapter6Interaction.m; sourceTree = "<group>"; };
+		BEF752421535324C006320BB /* chapter6Interaction.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chapter6Interaction.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -379,6 +384,7 @@
 				B966B607152F4DDF00616409 /* StaticView6Controller.xib */,
 				BEB2BE001533E14600ACEB35 /* DragSlides */,
 				B996E7281529380000089A68 /* Supporting Files */,
+				BEF7524515353257006320BB /* Temperature Constrain */,
 			);
 			path = "Genetics Learning";
 			sourceTree = "<group>";
@@ -508,6 +514,16 @@
 				BEDD979A153226BD003697AF /* redCircle.png */,
 			);
 			path = chapter5Animation;
+			sourceTree = "<group>";
+		};
+		BEF7524515353257006320BB /* Temperature Constrain */ = {
+			isa = PBXGroup;
+			children = (
+				BEF752401535324C006320BB /* chapter6Interaction.h */,
+				BEF752411535324C006320BB /* chapter6Interaction.m */,
+				BEF752421535324C006320BB /* chapter6Interaction.xib */,
+			);
+			name = "Temperature Constrain";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -664,6 +680,7 @@
 				BEF75235153520F5006320BB /* chapter5Drag7.xib in Resources */,
 				BEF7523A1535210A006320BB /* chapter5Drag8.xib in Resources */,
 				BEF7523F1535211D006320BB /* chapter5Drag9.xib in Resources */,
+				BEF752441535324D006320BB /* chapter6Interaction.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,6 +707,7 @@
 				BEF75234153520F5006320BB /* chapter5Drag7.m in Sources */,
 				BEF752391535210A006320BB /* chapter5Drag8.m in Sources */,
 				BEF7523E1535211D006320BB /* chapter5Drag9.m in Sources */,
+				BEF752431535324D006320BB /* chapter6Interaction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

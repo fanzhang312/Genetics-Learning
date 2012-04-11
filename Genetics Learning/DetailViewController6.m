@@ -8,8 +8,9 @@
 
 #import "DetailViewController6.h"
 #import "StaticView6Controller.h"
+#import "chapter6Interaction.h"
 
-static NSUInteger kNumberOfPages = 28;
+static NSUInteger kNumberOfPages = 19;
 static NSString *tittleKey = @"tittleKey";
 static NSString *imageKey = @"imageKey";
 static NSString *contentKey = @"contentKey";
@@ -46,35 +47,52 @@ static NSString *contentKey = @"contentKey";
     if (page >= kNumberOfPages)
         return;
     
-    
-    // replace the placeholder if necessary
-    StaticView6Controller *controller = [viewControllers objectAtIndex:page];
-    if ((NSNull *)controller == [NSNull null])
-    {
-        controller = [[StaticView6Controller alloc] initWithPageNumber:page];
-        [viewControllers replaceObjectAtIndex:page withObject:controller];
-        controller.view.userInteractionEnabled = YES;
-        
-    }
-    
-    // add the controller's view to the scroll view
-    if (controller.view.superview == nil)
-    {
-        CGRect frame = scrollView.frame;
-        frame.origin.x = frame.size.width * page;
-        frame.origin.y = 0;
-        controller.view.frame = frame;
-        [scrollView addSubview:controller.view];   
-        
-        
-        NSDictionary *numberItem = [self.contentList objectAtIndex:page];
-        controller.numberImage.image = [UIImage imageNamed:[numberItem valueForKey:imageKey]];
-        controller.numberTitle.text = [numberItem valueForKey:tittleKey];
-        controller.numberContent.text = [numberItem valueForKey:contentKey];
-        
-        NSLog(@"%@",[numberItem valueForKey:imageKey]);
-    }
-    
+    switch (page) {
+        case 4:{
+            chapter6Interaction *controller = [viewControllers objectAtIndex:page];
+            controller = [[chapter6Interaction alloc] initWithNibName:@"chapter6Interaction" bundle:nil];
+            [viewControllers replaceObjectAtIndex:page withObject:controller];
+            controller.view.userInteractionEnabled = YES;
+            
+            // add the controller's view to the scroll view
+            CGRect frame = scrollView.frame;
+            frame.origin.x = frame.size.width * page;
+            frame.origin.y = 0;
+            controller.view.frame = frame;
+            [scrollView addSubview:controller.view];   
+        }break;
+        default:{
+            // replace the placeholder if necessary
+            StaticView6Controller *controller = [viewControllers objectAtIndex:page];
+            if ((NSNull *)controller == [NSNull null])
+            {
+                controller = [[StaticView6Controller alloc] initWithPageNumber:page];
+                [viewControllers replaceObjectAtIndex:page withObject:controller];
+                controller.view.userInteractionEnabled = YES;
+                
+            }
+            
+            // add the controller's view to the scroll view
+            if (controller.view.superview == nil)
+            {
+                CGRect frame = scrollView.frame;
+                frame.origin.x = frame.size.width * page;
+                frame.origin.y = 0;
+                controller.view.frame = frame;
+                [scrollView addSubview:controller.view];   
+                
+                
+                NSDictionary *numberItem = [self.contentList objectAtIndex:page];
+                controller.numberImage.image = [UIImage imageNamed:[numberItem valueForKey:imageKey]];
+                controller.numberTitle.text = [numberItem valueForKey:tittleKey];
+                controller.numberContent.text = [numberItem valueForKey:contentKey];
+                
+                NSLog(@"page %d",page);
+            }
+            
+        }
+            break;
+    }   
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)sender

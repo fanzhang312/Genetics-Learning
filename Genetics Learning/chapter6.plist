@@ -6,7 +6,7 @@
 		<key>tittleKey</key>
 		<string>What is PCR?</string>
 		<key>imageKey</key>
-		<string>1.png</string>
+		<string></string>
 		<key>contentKey</key>
 		<string>Now that we know how living system replicate genetic material( DNA), let us examine a very powerful technology that uses this knowledge - PCR.
 
@@ -42,71 +42,11 @@ PCR is avery powerful method for making( replicating) many copies of DNA( millio
 
 Why do we think it would useful to make many copies of DNA?
 
-Most of the time the DNA we want to study is present in very small amounts( for example, in small pieces of hair to skin, or drops of blood at a crime scene).  </string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>What is PCR?</string>
-		<key>imageKey</key>
-		<string></string>
-		<key>contentKey</key>
-		<string>Now that we know how living system replicate genetic material( DNA), let us examine a very powerful technology that uses this knowledge - PCR.
-
-PCR, or polymerase chain reaction, is a reaction using the enzyme DNA polymerase to amplify( replicate) DNA into many copies in a microfuge tube( small test tube).
-
-PCR is avery powerful method for making( replicating) many copies of DNA( millions and billions) outside the cell.
-
-Why do we think it would useful to make many copies of DNA?
-
-Most of the time the DNA we want to study is present in very small amounts( for example, in small pieces of hair to skin, or drops of blood at a crime scene).  
-
-If we could make many copies of DNA, then we would have enough material to test and study for a variety of purposes with applications in medicine, agriculture, forensics and environment. </string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>What is PCR?</string>
-		<key>imageKey</key>
-		<string></string>
-		<key>contentKey</key>
-		<string>Now that we know how living system replicate genetic material( DNA), let us examine a very powerful technology that uses this knowledge - PCR.
-
-PCR, or polymerase chain reaction, is a reaction using the enzyme DNA polymerase to amplify( replicate) DNA into many copies in a microfuge tube( small test tube).
-
-PCR is avery powerful method for making( replicating) many copies of DNA( millions and billions) outside the cell.
-
-Why do we think it would useful to make many copies of DNA?
-
 Most of the time the DNA we want to study is present in very small amounts( for example, in small pieces of hair to skin, or drops of blood at a crime scene).  
 
 If we could make many copies of DNA, then we would have enough material to test and study for a variety of purposes with applications in medicine, agriculture, forensics and environment. 
 
 In this study, we will see how PCR can help us detect E. coli( the common bacteria in beach water) DNA for tracking the source of the bacteria contamination. </string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>How PCR works</string>
-		<key>imageKey</key>
-		<string></string>
-		<key>contentKey</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>How PCR works</string>
-		<key>imageKey</key>
-		<string>001.png</string>
-		<key>contentKey</key>
-		<string>Suppose we want to make many copies of the DNA segment below.</string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>How PCR works</string>
-		<key>imageKey</key>
-		<string>001.png</string>
-		<key>contentKey</key>
-		<string>Suppose we want to make many copies of the DNA segment below.
-
-In DNA replication, the helices enzyme would first unwind the double helix.</string>
 	</dict>
 	<dict>
 		<key>tittlekey</key>
@@ -133,35 +73,6 @@ In DNA replication, the helices enzyme would first unwind the double helix.
 In PCR, we use heat to break the hydrogen bonds between the bases and separate the DNA strands.
 
 * Click the thermostat to increase the temperature to 94C.</string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>How PCR works ( cont.)</string>
-		<key>imageKey</key>
-		<string>002.png</string>
-		<key>contentKey</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>How PCR works ( cont.)
-How PCR works ( cont.)
-</string>
-		<key>imageKey</key>
-		<string>002.png</string>
-		<key>contentKey</key>
-		<string>In DNA replication, after the strands separate, RNA primes then generates RNA primers to initiate DNA synthesis. </string>
-	</dict>
-	<dict>
-		<key>tittlekey</key>
-		<string>How PCR works ( cont.)
-</string>
-		<key>imageKey</key>
-		<string>002.png</string>
-		<key>contentKey</key>
-		<string>In DNA replication, after the strands separate, RNA primes then generates RNA primers to initiate DNA synthesis. 
-
-In PCR we need to add our own primers.</string>
 	</dict>
 	<dict>
 		<key>tittleKey</key>
@@ -196,24 +107,6 @@ Since DNA synthesis always proceeds in the 5&apos; to 3&apos; direction, the two
 		<key>imageKey</key>
 		<string>003.png</string>
 		<key>contentKey</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>How PCR works ( cont.)
-</string>
-		<key>imageKey</key>
-		<string>003.png</string>
-		<key>contentKey</key>
-		<string>In DNA replication, DNA polymerase then extends the primers in the 5&apos; to 3&apos; direction.</string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>How PCR works ( cont.)
-</string>
-		<key>imageKey</key>
-		<string>003.png</string>
-		<key>contentKey</key>
 		<string>In DNA replication, DNA polymerase then extends the primers in the 5&apos; to 3&apos; direction.
 
 In PCR, we use the enzyme Tag polymerase, a special enzyme which is not sensitive to high temperatures, to extend the primers at 72 C. </string>
@@ -223,6 +116,18 @@ In PCR, we use the enzyme Tag polymerase, a special enzyme which is not sensitiv
 		<string>How PCR works ( cont.)</string>
 		<key>imageKey</key>
 		<string>003.png</string>
+		<key>contentKey</key>
+		<string>In DNA replication, DNA polymerase then extends the primers in the 5&apos; to 3&apos; direction.
+
+In PCR, we use the enzyme Tag polymerase, a special enzyme which is not sensitive to high temperatures, to extend the primers at 72 C. 
+
+* Raise the temperature to 72C and drag the Tag polymerase to the 2 primers.</string>
+	</dict>
+	<dict>
+		<key>tittleKey</key>
+		<string>How PCR works ( cont.)</string>
+		<key>imageKey</key>
+		<string>007.png</string>
 		<key>contentKey</key>
 		<string>In DNA replication, DNA polymerase then extends the primers in the 5&apos; to 3&apos; direction.
 
