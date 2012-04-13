@@ -66,6 +66,12 @@
 		BE0386FE1530E67F00F7F100 /* 009.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0386F31530E67F00F7F100 /* 009.png */; };
 		BE0386FF1530E67F00F7F100 /* 010.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0386F41530E67F00F7F100 /* 010.png */; };
 		BE0387001530E67F00F7F100 /* 011.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0386F51530E67F00F7F100 /* 011.png */; };
+		BE1E2A021537BA95004517F8 /* chapter6Interaction3.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1E2A001537BA94004517F8 /* chapter6Interaction3.m */; };
+		BE1E2A031537BA95004517F8 /* chapter6Interaction3.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1E2A011537BA95004517F8 /* chapter6Interaction3.xib */; };
+		BE1E2A081537C164004517F8 /* chapter6Interaction4.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1E2A061537C164004517F8 /* chapter6Interaction4.m */; };
+		BE1E2A091537C164004517F8 /* chapter6Interaction4.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1E2A071537C164004517F8 /* chapter6Interaction4.xib */; };
+		BE1E2A0D1537C17A004517F8 /* chapter6Interaction5.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1E2A0B1537C17A004517F8 /* chapter6Interaction5.m */; };
+		BE1E2A0E1537C17A004517F8 /* chapter6Interaction5.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1E2A0C1537C17A004517F8 /* chapter6Interaction5.xib */; };
 		BE4B922A1534DD9E009FB76B /* chapter5Drag3.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4B92281534DD9E009FB76B /* chapter5Drag3.m */; };
 		BE4B922B1534DD9E009FB76B /* chapter5Drag3.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE4B92291534DD9E009FB76B /* chapter5Drag3.xib */; };
 		BE674FDD152D43E300C18493 /* chapter5.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE674FDC152D43E300C18493 /* chapter5.plist */; };
@@ -75,6 +81,8 @@
 		BEB2BE061533E1AE00ACEB35 /* chapter5Drag2.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEB2BE041533E1AE00ACEB35 /* chapter5Drag2.xib */; };
 		BEBD37E115372FA100F6BE46 /* 003.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBD37DF15372FA100F6BE46 /* 003.png */; };
 		BEBD37E215372FA100F6BE46 /* 004.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBD37E015372FA100F6BE46 /* 004.png */; };
+		BEBD37E71537390F00F6BE46 /* chapter6Interaction2.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBD37E51537390F00F6BE46 /* chapter6Interaction2.m */; };
+		BEBD37E81537390F00F6BE46 /* chapter6Interaction2.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEBD37E61537390F00F6BE46 /* chapter6Interaction2.xib */; };
 		BEDD979B153226BD003697AF /* 1leftback.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDD9776153226BD003697AF /* 1leftback.png */; };
 		BEDD979C153226BD003697AF /* 1leftfront.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDD9777153226BD003697AF /* 1leftfront.png */; };
 		BEDD979D153226BD003697AF /* 1rightback.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDD9778153226BD003697AF /* 1rightback.png */; };
@@ -202,6 +210,15 @@
 		BE0386F31530E67F00F7F100 /* 009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 009.png; sourceTree = "<group>"; };
 		BE0386F41530E67F00F7F100 /* 010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 010.png; sourceTree = "<group>"; };
 		BE0386F51530E67F00F7F100 /* 011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 011.png; sourceTree = "<group>"; };
+		BE1E29FF1537BA94004517F8 /* chapter6Interaction3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter6Interaction3.h; sourceTree = "<group>"; };
+		BE1E2A001537BA94004517F8 /* chapter6Interaction3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chapter6Interaction3.m; sourceTree = "<group>"; };
+		BE1E2A011537BA95004517F8 /* chapter6Interaction3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chapter6Interaction3.xib; sourceTree = "<group>"; };
+		BE1E2A051537C164004517F8 /* chapter6Interaction4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter6Interaction4.h; sourceTree = "<group>"; };
+		BE1E2A061537C164004517F8 /* chapter6Interaction4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chapter6Interaction4.m; sourceTree = "<group>"; };
+		BE1E2A071537C164004517F8 /* chapter6Interaction4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chapter6Interaction4.xib; sourceTree = "<group>"; };
+		BE1E2A0A1537C17A004517F8 /* chapter6Interaction5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter6Interaction5.h; sourceTree = "<group>"; };
+		BE1E2A0B1537C17A004517F8 /* chapter6Interaction5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chapter6Interaction5.m; sourceTree = "<group>"; };
+		BE1E2A0C1537C17A004517F8 /* chapter6Interaction5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chapter6Interaction5.xib; sourceTree = "<group>"; };
 		BE4B92271534DD9E009FB76B /* chapter5Drag3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter5Drag3.h; sourceTree = "<group>"; };
 		BE4B92281534DD9E009FB76B /* chapter5Drag3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chapter5Drag3.m; sourceTree = "<group>"; };
 		BE4B92291534DD9E009FB76B /* chapter5Drag3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chapter5Drag3.xib; sourceTree = "<group>"; };
@@ -214,6 +231,9 @@
 		BEB2BE041533E1AE00ACEB35 /* chapter5Drag2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chapter5Drag2.xib; sourceTree = "<group>"; };
 		BEBD37DF15372FA100F6BE46 /* 003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 003.png; sourceTree = "<group>"; };
 		BEBD37E015372FA100F6BE46 /* 004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 004.png; sourceTree = "<group>"; };
+		BEBD37E41537390F00F6BE46 /* chapter6Interaction2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chapter6Interaction2.h; sourceTree = "<group>"; };
+		BEBD37E51537390F00F6BE46 /* chapter6Interaction2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chapter6Interaction2.m; sourceTree = "<group>"; };
+		BEBD37E61537390F00F6BE46 /* chapter6Interaction2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chapter6Interaction2.xib; sourceTree = "<group>"; };
 		BEDD9776153226BD003697AF /* 1leftback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1leftback.png; sourceTree = "<group>"; };
 		BEDD9777153226BD003697AF /* 1leftfront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1leftfront.png; sourceTree = "<group>"; };
 		BEDD9778153226BD003697AF /* 1rightback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1rightback.png; sourceTree = "<group>"; };
@@ -522,6 +542,18 @@
 				BEF752401535324C006320BB /* chapter6Interaction.h */,
 				BEF752411535324C006320BB /* chapter6Interaction.m */,
 				BEF752421535324C006320BB /* chapter6Interaction.xib */,
+				BEBD37E41537390F00F6BE46 /* chapter6Interaction2.h */,
+				BEBD37E51537390F00F6BE46 /* chapter6Interaction2.m */,
+				BEBD37E61537390F00F6BE46 /* chapter6Interaction2.xib */,
+				BE1E29FF1537BA94004517F8 /* chapter6Interaction3.h */,
+				BE1E2A001537BA94004517F8 /* chapter6Interaction3.m */,
+				BE1E2A011537BA95004517F8 /* chapter6Interaction3.xib */,
+				BE1E2A051537C164004517F8 /* chapter6Interaction4.h */,
+				BE1E2A061537C164004517F8 /* chapter6Interaction4.m */,
+				BE1E2A071537C164004517F8 /* chapter6Interaction4.xib */,
+				BE1E2A0A1537C17A004517F8 /* chapter6Interaction5.h */,
+				BE1E2A0B1537C17A004517F8 /* chapter6Interaction5.m */,
+				BE1E2A0C1537C17A004517F8 /* chapter6Interaction5.xib */,
 			);
 			name = "Temperature Constrain";
 			sourceTree = "<group>";
@@ -681,6 +713,10 @@
 				BEF752441535324D006320BB /* chapter6Interaction.xib in Resources */,
 				BEBD37E115372FA100F6BE46 /* 003.png in Resources */,
 				BEBD37E215372FA100F6BE46 /* 004.png in Resources */,
+				BEBD37E81537390F00F6BE46 /* chapter6Interaction2.xib in Resources */,
+				BE1E2A031537BA95004517F8 /* chapter6Interaction3.xib in Resources */,
+				BE1E2A091537C164004517F8 /* chapter6Interaction4.xib in Resources */,
+				BE1E2A0E1537C17A004517F8 /* chapter6Interaction5.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,6 +744,10 @@
 				BEF752391535210A006320BB /* chapter5Drag8.m in Sources */,
 				BEF7523E1535211D006320BB /* chapter5Drag9.m in Sources */,
 				BEF752431535324D006320BB /* chapter6Interaction.m in Sources */,
+				BEBD37E71537390F00F6BE46 /* chapter6Interaction2.m in Sources */,
+				BE1E2A021537BA95004517F8 /* chapter6Interaction3.m in Sources */,
+				BE1E2A081537C164004517F8 /* chapter6Interaction4.m in Sources */,
+				BE1E2A0D1537C17A004517F8 /* chapter6Interaction5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

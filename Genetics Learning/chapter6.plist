@@ -102,32 +102,9 @@ Since DNA synthesis always proceeds in the 5&apos; to 3&apos; direction, the two
 	</dict>
 	<dict>
 		<key>tittleKey</key>
-		<string>How PCR works ( cont.)
-</string>
-		<key>imageKey</key>
-		<string>003.png</string>
-		<key>contentKey</key>
-		<string>In DNA replication, DNA polymerase then extends the primers in the 5&apos; to 3&apos; direction.
-
-In PCR, we use the enzyme Tag polymerase, a special enzyme which is not sensitive to high temperatures, to extend the primers at 72 C. </string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
 		<string>How PCR works ( cont.)</string>
 		<key>imageKey</key>
 		<string>003.png</string>
-		<key>contentKey</key>
-		<string>In DNA replication, DNA polymerase then extends the primers in the 5&apos; to 3&apos; direction.
-
-In PCR, we use the enzyme Tag polymerase, a special enzyme which is not sensitive to high temperatures, to extend the primers at 72 C. 
-
-* Raise the temperature to 72C and drag the Tag polymerase to the 2 primers.</string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>How PCR works ( cont.)</string>
-		<key>imageKey</key>
-		<string>007.png</string>
 		<key>contentKey</key>
 		<string>In DNA replication, DNA polymerase then extends the primers in the 5&apos; to 3&apos; direction.
 
@@ -162,27 +139,7 @@ In PCR, we use the enzyme Tag polymerase, a special enzyme which is not sensitiv
 		<key>imageKey</key>
 		<string>009.png</string>
 		<key>contentKey</key>
-		<string>Note that we now have 2 duplexes. 
-
-The two duplexes are now separated into 4 single stranded templates. The upper 2 templates were from one duplex, and the lower 2 templates were from the other duplex.</string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>How PCR works ( cont.)
-</string>
-		<key>imageKey</key>
-		<string>009.png</string>
-		<key>contentKey</key>
 		<string>* Click next to see primers go to their complementary bases on the four strands and at the temperature of 55C.</string>
-	</dict>
-	<dict>
-		<key>tittleKey</key>
-		<string>How PCR works ( cont.)
-</string>
-		<key>imageKey</key>
-		<string>010.png</string>
-		<key>contentKey</key>
-		<string>At the second cycle, Tag polymerases attach to the 4 primers and are ready to start synthesis at 55C.</string>
 	</dict>
 	<dict>
 		<key>tittleKey</key>

@@ -9,8 +9,12 @@
 #import "DetailViewController6.h"
 #import "StaticView6Controller.h"
 #import "chapter6Interaction.h"
+#import "chapter6Interaction2.h"
+#import "chapter6Interaction3.h"
+#import "chapter6Interaction4.h"
+#import "chapter6Interaction5.h"
 
-static NSUInteger kNumberOfPages = 19;
+static NSUInteger kNumberOfPages = 15;
 static NSString *tittleKey = @"tittleKey";
 static NSString *imageKey = @"imageKey";
 static NSString *contentKey = @"contentKey";
@@ -60,6 +64,63 @@ static NSString *contentKey = @"contentKey";
             frame.origin.y = 0;
             controller.view.frame = frame;
             [scrollView addSubview:controller.view];   
+            
+        }break;
+        case 6:{
+            chapter6Interaction2 *controller = [viewControllers objectAtIndex:page];
+            controller = [[chapter6Interaction2 alloc] initWithNibName:@"chapter6Interaction2" bundle:nil];
+            [viewControllers replaceObjectAtIndex:page withObject:controller];
+            controller.view.userInteractionEnabled = YES;
+            
+            // add the controller's view to the scroll view
+            CGRect frame = scrollView.frame;
+            frame.origin.x = frame.size.width * page;
+            frame.origin.y = 0;
+            controller.view.frame = frame;
+            [scrollView addSubview:controller.view];   
+            
+        }break;
+        case 7:{
+            chapter6Interaction3 *controller = [viewControllers objectAtIndex:page];
+            controller = [[chapter6Interaction3 alloc] initWithNibName:@"chapter6Interaction3" bundle:nil];
+            [viewControllers replaceObjectAtIndex:page withObject:controller];
+            controller.view.userInteractionEnabled = YES;
+            
+            // add the controller's view to the scroll view
+            CGRect frame = scrollView.frame;
+            frame.origin.x = frame.size.width * page;
+            frame.origin.y = 0;
+            controller.view.frame = frame;
+            [scrollView addSubview:controller.view];   
+            
+        }break;
+        case 9:{
+            chapter6Interaction4 *controller = [viewControllers objectAtIndex:page];
+            controller = [[chapter6Interaction4 alloc] initWithNibName:@"chapter6Interaction4" bundle:nil];
+            [viewControllers replaceObjectAtIndex:page withObject:controller];
+            controller.view.userInteractionEnabled = YES;
+            
+            // add the controller's view to the scroll view
+            CGRect frame = scrollView.frame;
+            frame.origin.x = frame.size.width * page;
+            frame.origin.y = 0;
+            controller.view.frame = frame;
+            [scrollView addSubview:controller.view];   
+            
+        }break;
+        case 10:{
+            chapter6Interaction5 *controller = [viewControllers objectAtIndex:page];
+            controller = [[chapter6Interaction5 alloc] initWithNibName:@"chapter6Interaction5" bundle:nil];
+            [viewControllers replaceObjectAtIndex:page withObject:controller];
+            controller.view.userInteractionEnabled = YES;
+            
+            // add the controller's view to the scroll view
+            CGRect frame = scrollView.frame;
+            frame.origin.x = frame.size.width * page;
+            frame.origin.y = 0;
+            controller.view.frame = frame;
+            [scrollView addSubview:controller.view];   
+            
         }break;
         default:{
             // replace the placeholder if necessary

@@ -1,25 +1,25 @@
 //
-//  chapter6Interaction.m
+//  chapter6Interaction4.m
 //  Genetics Learning
 //
-//  Created by Fan Zhang on 4/10/12.
+//  Created by Fan Zhang on 4/12/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "chapter6Interaction.h"
+#import "chapter6Interaction4.h"
 
-@implementation chapter6Interaction
-@synthesize backImage;
+@implementation chapter6Interaction4
 @synthesize frontImage;
-@synthesize tempStepper;
+@synthesize backImage;
+@synthesize secondText;
 @synthesize tempLabel;
+@synthesize tempStepper;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        
     }
     return self;
 }
@@ -37,9 +37,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-
-    self.tempStepper.minimumValue = 24;
+    // Do any additional setup after loading the view from its nib.
+    
+    self.tempStepper.minimumValue = 72;
     self.tempStepper.maximumValue = 100;
     self.tempStepper.stepValue = 2;
     self.tempStepper.wraps = YES;
@@ -50,10 +50,11 @@
 
 - (void)viewDidUnload
 {
-    [self setTempStepper:nil];
-    [self setTempLabel:nil];
-    [self setBackImage:nil];
     [self setFrontImage:nil];
+    [self setBackImage:nil];
+    [self setSecondText:nil];
+    [self setTempLabel:nil];
+    [self setTempStepper:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -62,12 +63,12 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    // Temporarily disable the scrollview when drag begins
-//    ((UIScrollView *)self.view.superview).scrollEnabled = NO;
-//    [(UIScrollView *)self.view.superview setUserInteractionEnabled:NO];
+    
     self.frontImage.hidden = NO;
     self.backImage.hidden = YES;
+    self.secondText.hidden = YES;
 }
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
@@ -80,9 +81,9 @@
     if (stepperValue == 94.) {
         self.backImage.hidden = NO;
         self.frontImage.hidden = YES;
-//        ((UIScrollView *)self.view.superview).scrollEnabled = YES;
+        self.secondText.hidden = NO;
+        //        ((UIScrollView *)self.view.superview).scrollEnabled = YES;
     }
 }
- 
 
 @end
