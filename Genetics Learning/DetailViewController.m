@@ -250,6 +250,18 @@ static NSString *contentKey = @"contentKey";
     [self loadScrollViewWithPage:page - 1];
     [self loadScrollViewWithPage:page];
     [self loadScrollViewWithPage:page + 1];
+    
+//    [self.viewControllers enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+//        if (idx != page -1 && idx != page && idx != page +1) {
+//            [self.viewControllers replaceObjectAtIndex:idx withObject:[NSNull null]];
+//        }
+//    }];
+    
+    for (int i = 0; i < [self.viewControllers count]; i++) {
+        if (i != page -1 && i != page && i != page +1) {
+            [self.viewControllers replaceObjectAtIndex:i withObject:[NSNull null]];
+        }
+    }
 }
 
 // At the begin of scroll dragging, reset the boolean used when scrolls originate from the UIPageControl
