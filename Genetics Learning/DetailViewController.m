@@ -78,9 +78,15 @@ static NSString *contentKey = @"contentKey";
     if (page >= kNumberOfPages)
         return;
     
+    // warning: Danger FIX
+    UIViewController *viewController = [self.viewControllers objectAtIndex:page];
+    if ([viewController isKindOfClass:[UIViewController class]]) {
+        [viewController.view removeFromSuperview];
+    }
+    
     switch (page) {
         case 4:{
-            chapter5Drag *controller = [viewControllers objectAtIndex:page];
+            chapter5Drag *controller = nil;
             controller = [[chapter5Drag alloc] initWithNibName:@"chapter5Drag" bundle:nil];
             [viewControllers replaceObjectAtIndex:page withObject:controller];
             controller.view.userInteractionEnabled = YES;
@@ -93,7 +99,7 @@ static NSString *contentKey = @"contentKey";
             [scrollView addSubview:controller.view];   
         }break;
         case 5:{
-            chapter5Drag2 *controller = [viewControllers objectAtIndex:page];
+            chapter5Drag2 *controller = nil;
             controller = [[chapter5Drag2 alloc] initWithNibName:@"chapter5Drag2" bundle:nil];
             [viewControllers replaceObjectAtIndex:page withObject:controller];
             controller.view.userInteractionEnabled = YES;
@@ -106,7 +112,7 @@ static NSString *contentKey = @"contentKey";
             [scrollView addSubview:controller.view];   
         }break;
         case 7:{
-            chapter5Drag3 *controller = [viewControllers objectAtIndex:page];
+            chapter5Drag3 *controller = nil;
             controller = [[chapter5Drag3 alloc] initWithNibName:@"chapter5Drag3" bundle:nil];
             [viewControllers replaceObjectAtIndex:page withObject:controller];
             controller.view.userInteractionEnabled = YES;
@@ -119,7 +125,7 @@ static NSString *contentKey = @"contentKey";
             [scrollView addSubview:controller.view];   
         }break;
         case 9:{
-            chapter5Drag4 *controller = [viewControllers objectAtIndex:page];
+            chapter5Drag4 *controller = nil;
             controller = [[chapter5Drag4 alloc] initWithNibName:@"chapter5Drag4" bundle:nil];
             [viewControllers replaceObjectAtIndex:page withObject:controller];
             controller.view.userInteractionEnabled = YES;
@@ -132,7 +138,7 @@ static NSString *contentKey = @"contentKey";
             [scrollView addSubview:controller.view];   
         }break;
         case 11:{
-            chapter5Drag5 *controller = [viewControllers objectAtIndex:page];
+            chapter5Drag5 *controller = nil;
             controller = [[chapter5Drag5 alloc] initWithNibName:@"chapter5Drag5" bundle:nil];
             [viewControllers replaceObjectAtIndex:page withObject:controller];
             controller.view.userInteractionEnabled = YES;
@@ -145,7 +151,7 @@ static NSString *contentKey = @"contentKey";
             [scrollView addSubview:controller.view];   
         }break;
         case 21:{
-            chapter5Drag6 *controller = [viewControllers objectAtIndex:page];
+            chapter5Drag6 *controller = nil;
             controller = [[chapter5Drag6 alloc] initWithNibName:@"chapter5Drag6" bundle:nil];
             [viewControllers replaceObjectAtIndex:page withObject:controller];
             controller.view.userInteractionEnabled = YES;
@@ -158,7 +164,7 @@ static NSString *contentKey = @"contentKey";
             [scrollView addSubview:controller.view];   
         }break;
         case 22:{
-            chapter5Drag7 *controller = [viewControllers objectAtIndex:page];
+            chapter5Drag7 *controller = nil;
             controller = [[chapter5Drag7 alloc] initWithNibName:@"chapter5Drag7" bundle:nil];
             [viewControllers replaceObjectAtIndex:page withObject:controller];
             controller.view.userInteractionEnabled = YES;
@@ -171,7 +177,7 @@ static NSString *contentKey = @"contentKey";
             [scrollView addSubview:controller.view];   
         }break;
         case 24:{
-            chapter5Drag8 *controller = [viewControllers objectAtIndex:page];
+            chapter5Drag8 *controller = nil;
             controller = [[chapter5Drag8 alloc] initWithNibName:@"chapter5Drag8" bundle:nil];
             [viewControllers replaceObjectAtIndex:page withObject:controller];
             controller.view.userInteractionEnabled = YES;
@@ -184,7 +190,7 @@ static NSString *contentKey = @"contentKey";
             [scrollView addSubview:controller.view];   
         }break;
         case 26:{
-            chapter5Drag9 *controller = [viewControllers objectAtIndex:page];
+            chapter5Drag9 *controller = nil;
             controller = [[chapter5Drag9 alloc] initWithNibName:@"chapter5Drag9" bundle:nil];
             [viewControllers replaceObjectAtIndex:page withObject:controller];
             controller.view.userInteractionEnabled = YES;
@@ -259,6 +265,10 @@ static NSString *contentKey = @"contentKey";
     
     for (int i = 0; i < [self.viewControllers count]; i++) {
         if (i != page -1 && i != page && i != page +1) {
+            UIViewController *dummyChapter = [self.viewControllers objectAtIndex:i];
+            if ([dummyChapter isKindOfClass:[UIViewController class]]) {
+                [dummyChapter.view removeFromSuperview];
+            }
             [self.viewControllers replaceObjectAtIndex:i withObject:[NSNull null]];
         }
     }
@@ -293,6 +303,16 @@ static NSString *contentKey = @"contentKey";
     
 	// Set the boolean used when scrolls originate from the UIPageControl. See scrollViewDidScroll: above.
     pageControlUsed = YES;
+    
+    for (int i = 0; i < [self.viewControllers count]; i++) {
+        if (i != page -1 && i != page && i != page +1) {
+            UIViewController *dummyChapter = [self.viewControllers objectAtIndex:i];
+            if ([dummyChapter isKindOfClass:[UIViewController class]]) {
+                [dummyChapter.view removeFromSuperview];
+            }
+            [self.viewControllers replaceObjectAtIndex:i withObject:[NSNull null]];
+        }
+    }
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
