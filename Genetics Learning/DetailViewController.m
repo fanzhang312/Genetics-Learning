@@ -17,8 +17,9 @@
 #import "chapter5Drag7.h"
 #import "chapter5Drag8.h"
 #import "chapter5Drag9.h"
+#import "chapter5Question.h"
 
-static NSUInteger kNumberOfPages = 30;
+static NSUInteger kNumberOfPages = 31;
 static NSString *tittleKey = @"tittleKey";
 static NSString *imageKey = @"imageKey";
 static NSString *contentKey = @"contentKey";
@@ -192,6 +193,22 @@ static NSString *contentKey = @"contentKey";
         case 26:{
             chapter5Drag9 *controller = nil;
             controller = [[chapter5Drag9 alloc] initWithNibName:@"chapter5Drag9" bundle:nil];
+            [viewControllers replaceObjectAtIndex:page withObject:controller];
+            controller.view.userInteractionEnabled = YES;
+            
+            // add the controller's view to the scroll view
+            CGRect frame = scrollView.frame;
+            frame.origin.x = frame.size.width * page;
+            frame.origin.y = 0;
+            controller.view.frame = frame;
+            [scrollView addSubview:controller.view];   
+        }break;
+            
+        case 30:{
+            chapter5Question *controller = nil;
+            controller = [[chapter5Question alloc] initWithNibName:@"chapter5Question" bundle:nil];
+            
+            
             [viewControllers replaceObjectAtIndex:page withObject:controller];
             controller.view.userInteractionEnabled = YES;
             
