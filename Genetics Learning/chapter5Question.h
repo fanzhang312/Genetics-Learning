@@ -22,5 +22,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *answerLabel;
 - (IBAction)nextQuestion:(id)sender;
 - (IBAction)checkAnswer:(id)sender;
+- (IBAction)previousQuestion:(id)sender;
 
 @end
